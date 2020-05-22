@@ -192,7 +192,7 @@
         width: 75%;
         height: 1080px;
         position: absolute;
-        margin-left: 25%;
+        left: 25%;
 }
 /* 슬라이드와 선택박스 부모요소 */
 .container{
@@ -357,21 +357,22 @@
         height: 767px;
     }
     .sec03-container{
+        width: 100%;
         height: 767px;
     }
+    /* /지혜의 숲 전체 박스 */
     .sec03-slider{
         width: 100%;
         height: 667px;
         top: 100px;
-        margin: 0;
+        right: auto;
+        left: auto;
     }
-    .box7{
-        height: 767px;
-    }
+    /* 지혜의 숲 슬라이더 전체박스 */
     .slide1{
-        width: 100%;
         background-size: 767px 667px;
     }
+    /* 슬라이드 크기 조정 */
 
     .slide1_1{
         width: 100%;
@@ -385,6 +386,7 @@
     .slide1_txt2{
         top: 30%;
     }
+    /* 지혜의 숲 설명 화면에 텍스트 박스 100%로 채우기 */
     .menu{
         display: none;
         width: 100%;
@@ -454,34 +456,76 @@
     .box3{
         width: 0;
     }
+    /* flex 이용한 공간 없애고 텍스트박스 100%처리 하여 화면 채우기 */
     .content01{
         font-size: 20px;
     }
     /* section02 글자 크기 변경 */
-    .box4{
+    .box4,.box5,.box6{
         height: 100px;
-        font-size: 15px;
+        font-size: 16px;
     }
-    .box5{
-        height: 100px;
-        font-size: 15px;
-    }
-    .box6{
-        height: 100px;
-        font-size: 15px;
-    }
-
+    /* 선택박스 크기와 글자 크기 바꾸기 */
     .sec03-container{
         width: 100%;
         height: 100px;
         display: flex;
         flex-direction: row;
     }
+    /* 선택박스 위에서 가로로 넣기 */
     .box7,.box8,.box9{
-        right: 25%;
         height: 667px;
     }
+    /* 슬라이드 박스 높이 */
     .slide2{
         background: url('../images/photo_2_1.png');
+    }
+    .slide3{
+        background: url('../images/photo_3_1.png');
+    }
+    .slide4{
+        background: url('../images/photo_4_1.png');
+    }
+    .slide5{
+        background: url('../images/photo_5_1.png');
+    }
+    /* 지혜의 숲 배경 크기 줄여서 넣기 */
+
+    .slide6_1{
+        width: 100%;
+        left: 0;
+        top: 0;
+        height: 667px;
+    }
+    .slide6_txt1{
+        top: 20%;
+    }
+    .slide6_txt2{
+        top: 30%;
+    }
+    /* 지지향 설명 화면에 텍스트 박스 100%로 채우기 */
+    
+    .slide6{
+        background: url('../images/photo_6_1.png');
+    }
+    .slide7{
+        background: url('../images/photo_7_1.png');
+    }
+    .slide8{
+        background: url('../images/photo_8_1.png');
+    }
+    .slide9{
+        background: url('../images/photo_9_1.png');
+    }
+    /* 지지향 슬라이드 배경 크기 줄여서 넣기 */
+
+    .slide10{
+        background: url('../images/photo_10_1.png');
+    }
+    .slide11{
+        background: url('../images/photo_11_1.png');
+    }
+    .slide12{
+        background: url('../images/photo_12_1.png');
     }
 }
