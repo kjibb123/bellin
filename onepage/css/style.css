@@ -192,7 +192,7 @@
         width: 75%;
         height: 1080px;
         position: absolute;
-        left: 25%;
+        margin-left: 25%;
 }
 /* 슬라이드와 선택박스 부모요소 */
 .container{
@@ -361,22 +361,23 @@
     }
     .sec03-slider{
         width: 100%;
-        height: 767px;
+        height: 667px;
         top: 100px;
+        margin: 0;
     }
     .box7{
         height: 767px;
-        right: 25%;
     }
     .slide1{
-        background-size: 767px 767px;
+        width: 100%;
+        background-size: 767px 667px;
     }
 
     .slide1_1{
         width: 100%;
         left: 0;
         top: 0;
-        height: 767px;
+        height: 667px;
     }
     .slide1_txt1{
         top: 20%;
@@ -482,8 +483,5 @@
     }
     .slide2{
         background: url('../images/photo_2_1.png');
-    }
-    body{
-        overflow-x: hidden;
     }
 }

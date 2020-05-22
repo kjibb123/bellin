@@ -67,4 +67,7 @@ $(function(){
         $('#box6').css("color","black");
     });
     // 나인블럭 hover 색 변화 효과
+    $('.slide1').mouseenter(function(){
+        ('slide2').css("display","none");
+    });
 });
