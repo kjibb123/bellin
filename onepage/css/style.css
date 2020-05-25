@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 
 #section01{
     width:100%; height:1080px; background:#FFF url(../images/main.png) top center no-repeat;}
@@ -29,7 +30,7 @@
 		background:rgba(0,0,0,0.5); transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out;}
 	
 		.logo a{
-            font-size:46px; padding:15px 0 0 15px; float:left; color:#FFF; font-family: 'Open Sans',Arial,Helvetica,sans-serif; text-decoration:none;}
+            font-size:46px; padding:15px 0 0 15px; float:left; color:#FFF; font-family:'Noto Sans KR', sans-serif; text-decoration:none;}
             
             .logo > a > img{
                 width: 72.44px;
@@ -75,33 +76,27 @@
             /* 중앙 폰트로고 opacity 효과 */
 
 		.menu_box > ul{
-			float:right; padding:0 35px 0 0;}
+            display: flex;
+            justify-content: flex-end;
+            margin: 0 40px 0 0;
+        }
 			
 			.menu_box li{
-				float:left; text-align:center; width:100px;}
+                display: flex; 
+                justify-content: center;
+                width: 120px;
+            }
 				
 				.menu_box li a{
-                    text-decoration:none; color:#FFF; line-height:100px; font-family: 'Open Sans',Arial,Helvetica,sans-serif; font-size:15px;}
-					
-					/**메뉴부분 마우스 오버시 색상 **/
-					.menu_box li a:hover{
-						border-top:2px solid #9D6; padding-top:40px; color:#9D6;}
-						
-					.menu_box li:nth-child(2) a:hover{
-						border-top:2px solid #9F0; padding-top:40px; color:#9F0;}
-						
-					.menu_box li:nth-child(3) a:hover{
-						border-top:2px solid #47c76b; padding-top:40px; color:#47c76b;}
-						
-					.menu_box li:nth-child(4) a:hover{
-						border-top:2px solid #9df1b5; padding-top:40px; color:#9df1b5;}
-						
-					.menu_box li:nth-child(5) a:hover{
-                        border-top:2px solid #f64; padding-top:40px; color:#f64;}
-                        
-                    .menu_box li:nth-child(6) a:hover{
-                        border-top:2px solid #f15; padding-top:40px; color: #f15;}
+                    text-decoration:none;
+                    color:#FFF;
+                    line-height:100px;
+                    font-family: 'Noto Sans KR', sans-serif;font-size:16px;
+                }
+                    
 
+					/**메뉴부분 마우스 오버시 색상 **/
+						
                         /* main화면 */
     .content01{
         display: flex;
@@ -152,6 +147,7 @@
         box-sizing: border-box;
         font-weight: bold;
         cursor: pointer;
+        font-family: 'Noto Sans KR', sans-serif;
     }
   
     
@@ -168,6 +164,7 @@
         border-right: 1px solid #cccccc;
         box-sizing: border-box;
         cursor: pointer;
+        font-family: 'Noto Sans KR', sans-serif;
         
     }
     
@@ -185,6 +182,7 @@
         border-right: 1px solid #cccccc;
         box-sizing: border-box;
         cursor: pointer;
+        font-family: 'Noto Sans KR', sans-serif;
     }
     /* section03 나인블럭박스 */
 
@@ -339,7 +337,12 @@
         -webkit-align-items: center;
         align-items: center;
       }
-
+@media(max-width: 1020px)
+{
+    .logo_2 > img{
+        width: 80%;
+    }
+}
 @media(max-width:767px){
     #section01{
         height: 767px;
@@ -347,7 +350,9 @@
     /* 1페이지 높이값 조정 */
     #section02{
         height: 767px;
+        background: url('../images/page_2_1.png');
     }
+
     /* 2페이지 높이값 조정 */
     #section03{
         height: 767px;
@@ -390,43 +395,27 @@
     .menu{
         display: none;
         width: 100%;
-        background-color: rgba(0,0,0,0.5);
+        background-color: white;
+        margin-top: 71px;
     }
     /* 작아졌을때 리스트 사라짐 */
     .menu_box li a{
+        font-size: 15px;
+        margin-left: 30px;
         line-height: 50px;
-        font-weight: bold;
+        color: black;
+        width:440px;
+    }
+    .menu li :hover{
+        color: #fed100;
     }
     /* 버튼메뉴 줄간격 */
     .menu_box li{
-        display: flex;
-        flex-direction: column;
-    }
-    .menu_box li a:hover{
-        border-bottom:2px solid; padding-top:2px; color:#9D6;}
-    
-    .menu_box li:nth-child(2) a:hover{
-        border-bottom:2px solid #9F0; padding-top:2px; color:#9F0;}
-            
-    .menu_box li:nth-child(3) a:hover{
-        border-bottom:2px solid; padding-top:2px; color:#47c76b;}
-            
-    .menu_box li:nth-child(4) a:hover{
-        border-bottom:2px solid; padding-top:2px; color:#9df1b5;}
-            
-    .menu_box li:nth-child(5) a:hover{
-        border-bottom:2px solid;  padding-top:2px; color:#f64;}
-            
-    .menu_box li:nth-child(6) a:hover{
-        border-bottom:2px solid; padding-top:2px; color: #f15;}
-
-    /* 글자에 마우스 닿았을때의 이벤트 */
-    .menu_box li{
         width: 100%;
     }
-    /* 메뉴 크기(간격 생각하여 33%적용) */
     .menu_box ul{
-        padding: 0;
+        flex-direction: column;
+        display: none;
     }
     /* 기존 리스트 패딩 값 삭제 */
     .menu_box{
@@ -435,7 +424,7 @@
     }
     /* 메뉴와 아이콘 fixed opacity 크기 */
     .menu_icon{
-        display: block;
+        display: flex;
     }
     /* icon 나타내기 */
     .logo > a > img{

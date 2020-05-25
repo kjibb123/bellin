@@ -1,13 +1,12 @@
 $(function(){
     $('#btn-nav').click(function(){
-        $(".menu").toggle(500);
+        $(".menu").slideToggle(500).css("display","flex");
     });
-
     $('.box1').mouseenter(function(){
-        $('.box1').css("opacity", "1");
+        $('.box1').animate({opacity:"1"},1000);
     });
     $('.box1').mouseleave(function(){
-        $('.box1').css("opacity", "0");
+        $('.box1').animate({opacity:"0"},1000);
     });
     // section02 글씨 나타내기 이벤트
     $('.box4').click(function(){

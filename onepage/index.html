@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta property="og:image" content=""/> 
+<meta property="og:image" content="slide1"/> 
 <meta property="og:description" content="책과 복합문화예술의 도시로"/>
 <meta property="og:title" content="파주출판도시"/>
 <script src="js/jquery-3.2.1.min.js"></script>
@@ -38,7 +38,6 @@
 			<li><a href="#section06">주변볼거리</a></li>
 			<li><a href="#section07">지도</a></li>
 		</ul>
-		
 	</div>
 	<div class="logo_2"><img src="images/font_logo.png" alt="font_logo" class="font_logo"></div>
 	<!-- menu end -->
@@ -154,9 +153,11 @@
 <script>
 	AOS.init();
     var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      loop: true,
       pagination: {
         el: '.swiper-pagination',
-        dynamicBullets: true,
+        clickable: true,
       },
     });
 	/**스크롤이 설정한 높이 이상 내려갔을때 스타일추가하기**/
@@ -182,8 +183,8 @@
 		  $('body,html').animate({scrollTop:position}, speed, 'swing');
 		  return false;
 	   });
-	});
-	
+    });
+    
 </script>
 
 </body>
