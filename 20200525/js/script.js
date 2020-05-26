@@ -18,3 +18,13 @@ $('.menu').mouseleave(function(){
 });
 });
 
+setInterval(function(){
+    //setInterval(); 함수 반복 실행
+    $(".slide_box").delay(500);
+    $(".slide_box").animate({marginTop: "-300px"}, "2000");
+    $(".slide_box").delay(500);
+    $(".slide_box").animate({marginTop: "-600px"}, 2000, "swing");
+    $(".slide_box").delay(2500);
+    $(".slide_box").animate({marginTop: "0"}, "500");
+})
+

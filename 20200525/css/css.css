@@ -54,11 +54,32 @@ nav{
 }
 
 /* nav */
-.slider{
+section{
     width: 1200px;
     height: 300px;
     background-color: rosybrown;
 }
+
+.slide_wrap{
+    width: 1200px;
+    height: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.slide_box{
+    overflow: hidden;
+}
+
+.slide_box>ul>li>a>img{
+    display: block;
+    border: 0;
+    width: 1200px;
+    height: 300px;
+    transition: 1s;
+}
+
+
 .content{
     height: 200px;
     display: flex;
