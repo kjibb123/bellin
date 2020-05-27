@@ -90,6 +90,89 @@ section{
 .tab-contents{
     background-color: royalblue;
 }
+
+.tab-menu > ul{
+    display: flex;
+}
+.tab-menu >ul >li{
+    padding: 10px 0;
+    width: 200px;
+    text-align: center;
+}
+.tab-menu>ul>li:first-child{
+    background-color: chartreuse;
+}
+.tab-1{
+    padding-left: 20px;
+    margin-top: 30px;
+}
+
+.tab-1 > ul >li{
+    padding: 5px 0;
+}
+
+.tab-2{
+    padding-left: 20px;
+    margin-top: 30px;
+}
+
+.tab-2 ul{
+    display: flex;
+}
+.tab-2 > ul >li{
+    margin-right: 30px;
+}
+.tab-2 img{
+    width: 100px;
+    height: 100px;
+}
+
+.tab-2{
+    display: none;
+}
+/* tab */
+
+.popup{
+    display: none;
+    position: fixed;
+    top: 100px;
+    background: rgba(0,0,0,0.6);
+}
+.popup_body{
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    background: white;
+    border: 2px solid black;
+}
+
+.popup:active{
+    display: block;
+    opacity: 1;
+}
+.popup_top{
+    height: 80%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.popup_top h2{
+    color: orange;
+    margin-bottom: 20px;
+    font-size: 20pt;
+}
+.popup_bottom{
+    text-align: right;
+}
+.팝업닫기{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+
 .banner-contents{
     background-color: salmon;
 }
@@ -100,3 +183,4 @@ footer{
     height: 100px;
     background-color: slateblue;
 }
+

@@ -1,7 +1,8 @@
 $(function(){
-    $('#btn-nav').click(function(){
-        $(".menu").slideToggle(500).css("display","flex");
-    });
+    $(".menuBtn").click(function(){
+            // slideToggle은 요소의 height 값을 조작해서 움직임을 만들어낸다. 보이면 안보이게, 안보이면 보이게 처리한다.
+        $(".menuNav").slideToggle();
+        });
     $('.box1').mouseenter(function(){
         $('.box1').animate({opacity:"1"},1000);
     });

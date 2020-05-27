@@ -28,18 +28,23 @@
 <body>
 <div id="section01">
     <div class="menu_box">
-		<div class="logo"><a href="#section01"><img src="images/logo.png" alt="logo" class="main_logo"></a></div>
-		<div class="menu_icon" id="btn-nav">
-			<i class="fas fa-bars"></i>
-		</div>
-        <ul class="menu" id="nav">
-            <li><a href="#section02">소개</a></li>
+        <div class="logo"><a href="#section01"><img src="images/logo.png" alt="logo" class="main_logo"></a></div>
+        <div class="logo2"><a href="#section01"><img src="images/logo2.png" alt="logo" class="main_logo2"></a></div>
+        
+        
+        <button type="button" class="menuBtn" style="background: none; border: none;">
+            <i><img src="images/ghostbutton.png" style="width:40px;height: 40px; color:black;"></i>
+        </button>
+    <nav class="menuNav" id="menuNav">
+        <ul>
+            <li><a id="a01"href="#section02">소개</a></li>
             <li><a href="#section03">지혜의 숲</a></li>
             <li><a href="#section04">활자의 숲</a></li>
             <li><a href="#section05">아트뮤지엄</a></li>
 			<li><a href="#section06">주변볼거리</a></li>
 			<li><a href="#section07">지도</a></li>
-		</ul>
+        </ul>
+    </nav>
 	</div>
 	<div class="logo_2"><img src="images/font_logo.png" alt="font_logo" class="font_logo"></div>
 	<!-- menu end -->
@@ -186,6 +191,7 @@
 		  return false;
 	   });
     });
+
     
 </script>
 

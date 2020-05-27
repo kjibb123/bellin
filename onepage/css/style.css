@@ -37,19 +37,36 @@
                 height: 69.28px;
                 
             }
-            /* 로고 크기 지정 */
-            .menu_icon{
+            .logo2{
                 display: none;
-                float: right;
-                margin: 12px 10px 0 0;
-                padding: 10px 12px;
-                font-size: 24px;
-                color:rgba(255,255,255,0.5);
-                border: 1px solid rgba(255,255,255,0.5);
-                border-radius: 3px;
-                cursor: pointer;
             }
-
+            
+            /* 로고 크기 지정 */
+            .menu_box{
+                width: 100%;
+                height: 100px;
+            }
+            .menuBtn{
+                display: none;
+            }
+            .menuNav{
+                float: right;
+                flex-direction: row;
+                justify-content: flex-end;
+                text-align: center;
+            }
+            .menuNav li{
+                width: 150px;
+                text-align: center;
+            }
+            .menuNav li a{
+                display: flex;
+                color: white;
+                text-decoration: none;
+                text-align: center;
+                line-height: 100px;
+                font-size: 15px;
+            }
             
             .logo_2{
                 width: 100%;
@@ -57,6 +74,11 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
+            }
+            .menuNav ul:after{
+                content: "";
+                display: flex;
+                clear: both;
             }
             /* 중앙 폰트로고 가운데 정렬 지정 */
             .logo_2 > img{
@@ -75,24 +97,7 @@
             }
             /* 중앙 폰트로고 opacity 효과 */
 
-		.menu_box > ul{
-            display: flex;
-            justify-content: flex-end;
-            margin: 0 40px 0 0;
-        }
-			
-			.menu_box li{
-                display: flex; 
-                justify-content: center;
-                width: 120px;
-            }
-				
-				.menu_box li a{
-                    text-decoration:none;
-                    color:#FFF;
-                    line-height:100px;
-                    font-family: 'Noto Sans KR', sans-serif;font-size:16px;
-                }
+	
                     
 
 					/**메뉴부분 마우스 오버시 색상 **/
@@ -395,40 +400,15 @@
         top: 30%;
     }
     /* 지혜의 숲 설명 화면에 텍스트 박스 100%로 채우기 */
-    .menu{
-        display: none;
-        width: 100%;
-        background-color: white;
-        margin-top: 71px;
-    }
+    
     /* 작아졌을때 리스트 사라짐 */
-    .menu_box li a{
-        font-size: 15px;
-        margin-left: 30px;
-        line-height: 50px;
-        color: black;
-        width:440px;
-    }
-    .menu li :hover{
-        color: #fed100;
-    }
+    
+    
     /* 버튼메뉴 줄간격 */
-    .menu_box li{
-        width: 100%;
-    }
-    .menu_box ul{
-        flex-direction: column;
-        display: none;
-    }
+   
     /* 기존 리스트 패딩 값 삭제 */
-    .menu_box{
-        width: 100%;
-        height: 71px;
-    }
+    
     /* 메뉴와 아이콘 fixed opacity 크기 */
-    .menu_icon{
-        display: flex;
-    }
     /* icon 나타내기 */
     .logo > a > img{
         width: 56.45px;
@@ -524,5 +504,81 @@
     }
     .slide12{
         background: url('../images/photo_12_1.png') no-repeat;
+    }
+    .menu_box{
+        height: 76px;
+        background-color: white;
+    }
+    .menuNav{
+        margin-top: 8px;
+        width: 100%;
+        display: none;
+    }
+    .menuNav li a{
+        width: 100%;
+        line-height: 40px;
+        padding-left: 20px;
+        color: black;
+        font-family: 'Noto Sans KR', sans-serif;
+    }
+    .menuNav li a:hover{
+        color: #FC0;
+    }
+    .menuNav li{
+        width: 100%;
+        background-color: white;
+        border-bottom: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+
+    .menuBtn{
+        height: 45px;
+        display: block;
+        float: right;
+        margin: 15px 15px 0 0;
+    }
+    /* 클릭시 배경색 변경 */
+    
+    /* 파란색 테두리 제거 */
+    .menuBtn:focus{
+        outline: none;
+    }
+    .logo{
+        display: none;
+    }
+    .logo2 > a > img{
+        width: 56.45px;
+        height: 53.98px;
+    }
+    /* 로고크기 조정 */
+    .logo2 > a {
+        padding: 10px 0 0 10px;
+    }
+    .logo2{
+        position: absolute;
+        display: block;
+        padding:10px 0 0 0;
+    }
+
+    /* 토글버튼 글자 숨기기 */
+}
+@media(min-width:768px){
+    .menuBtn{
+        display: none;
+    }
+    /* 네비게이션 */
+    .menuNav{
+        /* !important는 지정한 스타일의 속성이 중요하기 때문에 변경을 막기위해 지정한다. */
+        display: block !important;
+        float: right;
+    }
+    .menuNav li{
+        float: left;
+    }
+    .menuNav li a{
+        margin-left: 40px;
+    }
+    #a01{
+        margin-left:60px;
     }
 }
