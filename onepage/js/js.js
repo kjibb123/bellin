@@ -70,4 +70,8 @@ $(function(){
     $('.slide1').mouseenter(function(){
         ('slide2').css("display","none");
     });
+
+    $('.main_logo2').click(function(){
+        $('.menuNav').slideUp();
+    });
 });
