@@ -44,13 +44,21 @@ nav{
 }
 
 .subNav{
+    position: relative;
+    z-index: 999;
     display: none;
+    
+}
+.subNav ul{
+    height: 180px;
+    background-color: rgba(0,0,0,0.2);
 }
 .subNav ul li{
     margin-top: 10px;
     width: 100px;
     height: 30px;
     text-align: center;
+   
 }
 
 /* nav */
@@ -88,27 +96,31 @@ section{
     width: 400px;
 }
 .tab-contents{
-    background-color: royalblue;
+    display: flex;
+    background-color: lemonchiffon
 }
 
 .tab-menu > ul{
     display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
 }
 .tab-menu >ul >li{
     padding: 10px 0;
-    width: 200px;
+    width: 120px;
     text-align: center;
 }
 .tab-menu>ul>li:first-child{
-    background-color: chartreuse;
+    background-color: white;
 }
-.tab-1{
-    padding-left: 20px;
-    margin-top: 30px;
+.tab-1 > ul{
+    width: 360px;
+    background-color: white;
+    margin-left: 20px;
 }
-
 .tab-1 > ul >li{
-    padding: 5px 0;
+    padding: 10px 20px 10px 10px;
+    
 }
 
 .tab-2{
@@ -174,13 +186,54 @@ section{
 }
 
 .banner-contents{
-    background-color: salmon;
+    background-color: lemonchiffon;
+}
+
+.banner-contents > img{
+    margin-top: 10px;
+    margin-left: 10px;
 }
 .go-contents{
-    background-color: seagreen;
+    background-color: lemonchiffon;
+}
+.go-contents > img{
+    margin-top: 10px;
+    margin-left: 10px;
 }
 footer{
+    width: 100%;
     height: 100px;
-    background-color: slateblue;
+    background-color: black;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+}
+.logo2{
+    display: flex;
+    width: 200px;
+    height: 40px;
+    padding-top: 30px;
+}
+
+.copyright{
+    display: flex;
+    padding-top: 35px;
+}
+.copyright p{
+    color: white;
+    font-size: 17px;
+}
+.sns{
+    display: flex;
+    padding-top: 35px;
+}
+.sns > img{
+    width: 30px;
+    height: 30px;
+    padding-right: 10px;
 }
 

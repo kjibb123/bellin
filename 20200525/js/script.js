@@ -31,13 +31,13 @@ setInterval(function(){
 
 $(function(){
     $('#tab1').click(function(){
-        $('#tab1').css("background","chartreuse");
+        $('#tab1').css("background","white");
         $('#tab2').css("background","none");
         $('.tab-1').css("display","block");
         $('.tab-2').css("display","none");
     });
     $('#tab2').click(function(){
-        $('#tab2').css("background","chartreuse");
+        $('#tab2').css("background","white");
         $('#tab1').css("background","none");
         $('.tab-2').css("display","block");
         $('.tab-1').css("display","none");
