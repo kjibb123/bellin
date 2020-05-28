@@ -345,6 +345,102 @@ html{
         -webkit-align-items: center;
         align-items: center;
       }
+
+      .page4{
+        width: 100%;
+        display: flex;
+    }
+    
+    .page4_opacity{
+        height: 1080px;
+        width: 100%;
+        background-color: rgba(0,0,0,0.8);
+    }
+    .title4{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding-top: 60px;
+        color: white;
+        font-weight: bold;
+        font-family: 'Noto Sans KR', sans-serif;
+    }
+    .title4 h2{
+        font-size: 40px;
+    }
+    .title4 h1{
+        font-size: 70px;
+    }
+    .main4{
+        display: flex;
+        width: 100%;
+    }
+    .main4_left{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 700px;
+    }
+    .main4_right{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 700px;
+    }
+    .main4_left1{
+      padding-top: 40px;
+      text-align: center;
+    }
+    .main4_left1 h1{
+        font-size: 40px;
+        color: white;
+    }
+    .main4_right1{
+      padding-top: 40px;
+      text-align: center;
+    }
+    .main4_right1 h1{
+      font-size: 40px;
+      color: white;
+    }
+    .main4 p{
+      padding-top: 60px;
+      text-align: center;
+      font-size: 24px;
+      line-height: 40px;
+      color: white;
+    }
+    .bottom4{
+        text-align: center;
+        width: 100%;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bottombutton{
+        width: 200px;
+        height: 72px;
+        display: flex;
+        cursor: pointer;
+        border: 2px solid #fff;
+        border-radius: 5px 5px 5px 5px;
+    }
+   
+  .clickbutton{
+      width: 20px;
+      height: 36px;
+      padding: 20px 0 0 20px;
+
+  }
+  .bottom4 h1{
+      padding-left: 30px;
+      color: white;
+  }
 @media(max-width: 1020px)
 {
     .logo_2 > img{
