@@ -1473,56 +1473,77 @@ html{
         margin-top: 20px;
     }
     #photo1{
+        width: 150px;
+        margin-left: 5px;
         height: 200px;
     }
     #photo1 > img{
         margin-left: 0;
     }
     #photo2{
+        width: 150px;
+        margin-left: 10px;
         height: 200px;
     }
     #photo2 > img{
         margin-left: 0;
     }
     #photo3{
+        width: 150px;
+        margin-left: 10px;
+        margin-right: 5px;
         height: 200px;
     }
     #photo3 > img{
         margin-left: 0;
     }
     #photo4{
+        width: 150px;
+        margin-left: 5px;
         height: 200px;
     }
     #photo4 > img{
         margin-left: 0;
     }
     #photo5{
+        width: 150px;
+        margin-left: 10px;
         height: 200px;
     }
     #photo5 > img{
         margin-left: 0;
     }
     #photo6{
+        width: 150px;
+        margin-left: 10px;
+        margin-right: 5px;
         height: 200px;
     }
     #photo6 > img{
         margin-left: 0;
     }
     #photo7{
-        height: 200px;
         margin-top: 20px;
+        width: 150px;
+        margin-left: 5px;
+        height: 200px;
     }
     #photo7 > img{
         margin-left: 0;
     }
     #photo8{
-        height: 200px;
         margin-top: 20px;
+        width: 150px;
+        margin-left: 10px;
+        height: 200px;
     }
     #photo8 > img{
         margin-left: 0;
     }
     #photo9{
+        width: 150px;
+        margin-left: 10px;
+        margin-right: 5px;
         height: 200px;
         margin-top: 20px;
     }
