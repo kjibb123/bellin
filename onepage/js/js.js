@@ -74,4 +74,12 @@ $(function(){
     $('.main_logo2').click(function(){
         $('.menuNav').slideUp();
     });
+    $('.bottombutton').click(function(){
+        $('.page4_opacity').fadeOut();
+        $('.page4_photobox').fadeIn();    
+    });
+    $('.photo_cancel').click(function(){
+        $('.page4_opacity').fadeIn();
+        $('.page4_photobox').fadeOut();
+    });
 });
