@@ -17,38 +17,29 @@ a{
 
 .container{
     width: 1200px;
-    background-color: cornflowerblue;
     margin: 0 auto;
 }
 
 header{
     height: 100px;
-}
-.navi{
-    height: 100px;
     display: flex;
     justify-content: space-between;
 }
+
 .logo{
     margin-top: 28px;
-    display: flex;
-    width: 200px;
-}
-.menu{
-    display: flex;
-}
 
+}
 .menu > ul{
     display: flex;
-   
+    margin-right: 30px;
 }
-
 .menu_content{
     display: flex;
     margin-right: 30px;
 }
 
-.menu_content > li{
+.menu_content li{
     width: 100px;
     height: 30px;
     margin-top: 30px;
@@ -57,10 +48,7 @@ header{
     text-align: center;
     cursor: pointer;
 }
-.menu_content > li > a{
-    font-size: 16px;
- 
-}
+
 .submenu{
     position: relative;
     z-index: 999;
@@ -74,82 +62,83 @@ header{
 .submenu ul li{
     width: 100px;
     height: 30px;
-    margin-top: 30px;
+    margin-top: 10px;
     text-align: center;
 }
-.submenu li a{
-    line-height: 30px;
-}
-
 section{
     width: 1200px;
     height: 300px;
-    background-color: blueviolet;
 }
 .slidebox{
+    width: 1200px;
     height: 300px;
+    overflow: hidden;
+    margin: 0 auto;
 }
 .slider{
-    height: 300px;
-    background-color: cadetblue;
+    overflow: hidden;
 }
-.slider ul{
-    display: none;
-}
-.content{
+.slider>ul>li>a>img{
+    display: block;
+    border: 0;
     width: 1200px;
-    height: 200px;
-    background-color: brown;
+    height: 300px;
+    transition: 1s;
 }
-.content-tab{
+
+.content{
+    height: 200px;
     display: flex;
-    height: 200px;
 }
-.contents{
+.content div{
     width: 400px;
+}
+.tab-contents{
     display: flex;
-    height: 200px;
-    flex-direction: column;
+    background-color: lemonchiffon
 }
-.contentss{
-    margin-left: 5px;
-}
-.contents ul{
+
+.tab-menu > ul{
     display: flex;
-    width: 200px;
-    margin-top: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
 }
-.contents > ul >li{
-    width: 100px;
-    height: 30px;
+.tab-menu >ul >li{
+    padding: 10px 0;
+    width: 120px;
     text-align: center;
-    padding-top: 5px;
-    background-color: chartreuse;
 }
-.contents-02 ul{
-    width: 400px;
-    flex-direction: column;
+.tab-menu>ul>li:first-child{
     background-color: white;
 }
-.contents-02 li{
-    width: 200px;
-    line-height: 30px;
+.tab-1 > ul{
+    width: 360px;
+    background-color: white;
+    margin-left: 20px;
+}
+.tab-1 > ul >li{
+    padding: 10px 20px 10px 10px;
+    
+}
+
+.tab-2{
     padding-left: 20px;
+    margin-top: 30px;
 }
-.contents-03{
-    display: none;
-}
-.contents-03 ul{
+
+.tab-2 ul{
     display: flex;
 }
-.contents-03 li{
-    margin-left: 25px;
-    margin-top: 20px;
+.tab-2 > ul >li{
+    margin-right: 30px;
 }
-.contents-03 > ul > li > img{
-    display: flex;
+.tab-2 img{
     width: 100px;
     height: 100px;
+}
+
+.tab-2{
+    display: none;
 }
 .banner{
     width: 400px;
@@ -172,6 +161,42 @@ section{
     margin: 0 auto;
 }
 
+.popup{
+    display: none;
+    position: fixed;
+    top: 100px;
+    background: rgba(0,0,0,0.6);
+}
+.popup_body{
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    background: white;
+    border: 2px solid black;
+}
+.popup:active{
+    display: block;
+    opacity: 1;
+}.popup_top{
+    height: 80%;
+    text-align: center;
+    margin-bottom: 20pt;
+}
+.pop{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+.popup_bottom{
+    text-align: right;
+}
+.popup_top h2{
+    font-size: 20px;
+}
 footer{
     height: 100px;
     background-color: violet;

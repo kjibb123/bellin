@@ -76,15 +76,16 @@ section{
 }
 
 .slide_box{
+    width: 1200px;
+    height: 300px;
     overflow: hidden;
 }
 
 .slide_box>ul>li>a>img{
     display: block;
-    border: 0;
     width: 1200px;
     height: 300px;
-    transition: 1s;
+
 }
 
 
@@ -97,7 +98,7 @@ section{
 }
 .tab-contents{
     display: flex;
-    background-color: lemonchiffon
+    background-color: black;
 }
 
 .tab-menu > ul{

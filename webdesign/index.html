@@ -4,15 +4,13 @@
     <meta charset="UTF-8">
     <title>JUST 쇼핑몰</title>
     <link rel="stylesheet" href="css/css.css">
-    <script src="js/js.js"></script>
-    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery-2.1.3.min.js"></script>
 </head>
 <body>
     <div class="container">
         <header>
             <div class="navi">
-                <div class="logo">
-                    <h1><a href="#"><img src="images/logo.png" alt="로고"></a></h1>
+                    <h1 class="logo"><a href="#"><img src="images/logo.png" alt="로고"></a></h1>
                 </div>
                 <div class="menu">
                         <ul class="menu_content">
@@ -48,57 +46,70 @@
                         </ul>
                     </div>
                 </div>
-            </div>
+    
         </header>
         <!-- header -->
         <section>
             <div class="slidebox">
                 <div class="slider">
                     <ul>
-                        <li><img src="images/img1.png" alt="이미지1"></li>
-                        <li><img src="images/img2.png" alt="이미지2"></li>
-                        <li><img src="images/img3.png" alt="이미지3"></li>
+                        <li><a href="#"><img src="images/img1.png" alt="이미지1"></a></li>
+                        <li><a href="#"><img src="images/img2.png" alt="이미지2"></a></li>
+                        <li><a href="#"><img src="images/img3.png" alt="이미지3"></a></li>
                     </ul>
                 </div>
             </div>
         </section>
         
         <div class="content">
-            <div class="content-tab">
-                <div class="contents">
-                    <ul class="contentss">
+            <div class="tab-contents">
+                <div class="tab-menu">
+                    <ul>
                         <li id="tab1"><a href="#">공지사항</a></li>
                         <li id="tab2"><a href="#">갤러리</a></li>
                     </ul>
-                    <div class="contents-box">
-                        <div class="contents-02">
+                    <div class="tab-content">
+                        <div class="tab-1">
                             <ul>
-                                <li>누르면 이벤트 팝업창</li>
-                                <li>공지사항입니다</li>
-                                <li>공지사항입니다</li>
-                                <li>공지사항입니다</li>
+                                <li id="popup_button">공지사항 입니다.</li>
+                                <li>공지사항 입니다.2</li>
+                                <li>공지사항 입니다.3</li>
                             </ul>
                         </div>
-                        <div class="contents-03">
+                        <div class="tab-2">
                             <ul>
-                                <li><img src="images/img1.png" alt="갤러리1"></li>
-                                <li><img src="images/img2.png" alt="갤러리2"></li>
-                                <li><img src="images/img3.png" alt="갤러리3"></li>
+                                <li><img src="images/img1.png" alt=""></li>
+                                <li><img src="images/img2.png" alt=""></li>
+                                <li><img src="images/img3.png" alt=""></li>
                             </ul>
                         </div>
                     </div>
                 </div>
+            </div>
                 <div class="banner">
                     <img src="images/banner.png" alt="배너">
                 </div>
                 <div class="right">
                     <img src="images/right.png" alt="바로가기">
                 </div>
-            </div>
-            <div class="popup">
-                <div class="popup_contents"></div>
+            
+        
+
+        <div class="popup">
+            <div class="popup_body">
+                <div class="popup_top">
+                    <h2>타이틀</h2>
+                    <p>just 쇼핑몰 팝업입니다.</p><br>
+                    <p>just 쇼핑몰 팝업입니다.</p><br>
+                    <p>just 쇼핑몰 팝업입니다.</p><br>
+                    <p>just 쇼핑몰 팝업입니다.</p><br>
+                </div>
+                <div class="popup_bottom">
+                    <input type="button" class="pop" value="닫기" width="100px">
+                </div>
             </div>
         </div>
+    </div>
         <footer>
             <div class="footer">
                 <div class="logo2">
@@ -115,5 +126,6 @@
             </div>
         </footer>
     </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
