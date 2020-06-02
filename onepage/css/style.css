@@ -1289,6 +1289,9 @@ html{
         width: 40%;
     }
     .bus img{
+        width: 101px;
+        height: 116px;
+        
         margin-left: 130px;
         margin-top: 180px;
     }
