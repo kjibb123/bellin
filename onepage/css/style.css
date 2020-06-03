@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 
-html{
-    scroll-behavior: smooth;
-}
 #section01{
     width:100%; background: url(../images/main.png) top center no-repeat;}
 
@@ -1256,58 +1253,115 @@ html{
         width: 100%;
         height: 580px;
     }
-    .carbox{
-        width: 50%;
-        display: flex;
-    }
-    .car{
-        width: 40%;
-    }
-    .car img{
-        margin-left: 130px;
-        margin-top: 220px;
-    }
-    .car-content{
-        width: 60%;
+    .wisdombox{
+        width: 25%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .car-content h1{
+    .wisdombox h1{
+        display: flex;
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Noto Sans KR', sans-serif;
+        color: #FC0;
+    }
+    .wisdombox p{
         display: flex;
         text-align: center;
         font-size: 20px;
+        line-height: 30px;
         font-family: 'Noto Sans KR', sans-serif;
-        margin: 20px 0 20px 0;
+        font-weight: bold;
+        color: #FC0;
+    }
+    .letterbox{
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .letterbox h1{
+        display: flex;
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Noto Sans KR', sans-serif;
+        color: rgba(0,0,0,0.9);
+    }
+    .letterbox p{
+        display: flex;
+        text-align: center;
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: bold;
+        font-family: 'Noto Sans KR', sans-serif;
+        color: rgba(0,0,0,0.9);
+    }
+    .museumbox{
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .museumbox h1{
+        display: flex;
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Noto Sans KR', sans-serif;
+        color: #3766b4;
+    }
+    .museumbox p{
+        display: flex;
+        text-align: center;
+        font-size: 18px;
+        line-height: 30px;
+        font-family: 'Noto Sans KR', sans-serif;
+        color: #3766b4;
+        font-weight: bold;
     }
     .busbox{
-        width: 50%;
+        width: 25%;
         display: flex;
+        flex-direction: column;
     }
-    .bus{
-        width: 40%;
+    .busimg{
+        display: flex;
+        width: 100%;
+        height: 60%;
+        justify-content: center;
+        align-items: center;
     }
-    .bus img{
-        width: 101px;
-        height: 116px;
-        
-        margin-left: 130px;
-        margin-top: 180px;
+    .busimg img{
+        width: 141px;
+        height: 160px;
+        justify-content: center;
+        align-items: center;
     }
-    .bus-content{
-        width: 60%;
+    .buscontent{
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .bus-content h1{
-        display: flex;
-        text-align: center;
+    .buscontent p{
         font-size: 20px;
+        display: flex;
+        line-height: 40px;
+        font-weight: bold;
+        text-align: center;
         font-family: 'Noto Sans KR', sans-serif;
     }
+    #map{
+        width: 100%;
+        height: 500px;
+    }
+
 
 @media(max-width: 1020px)
 {
@@ -1791,6 +1845,41 @@ html{
     }
     #section06{
         height: 767px;
+    }
+    #map{
+        width: 100%;
+        height: 300px;
+    }
+    .wisdombox h1{
+        font-size: 28px;
+    }
+    .wisdombox p{
+        font-size: 16px;
+    }
+    .letterbox h1{
+        font-size: 28px;
+    }
+    .letterbox p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .museumbox h1{
+        font-size: 26px;
+    }
+    .museumbox p{
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .busimg{
+        height: 40%;
+    }
+    .busimg img{
+        width: 71px;
+        height: 80px;
+    }
+    .buscontent p{
+        font-size: 18px;
+        line-height: 32px;
     }
 }
 @media(min-width:768px){
