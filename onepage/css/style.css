@@ -1855,20 +1855,20 @@
         font-size: 28px;
     }
     .wisdombox p{
-        font-size: 16px;
+        font-size: 12px;
     }
     .letterbox h1{
         font-size: 28px;
     }
     .letterbox p{
-        font-size: 16px;
+        font-size: 12px;
         line-height: 24px;
     }
     .museumbox h1{
         font-size: 26px;
     }
     .museumbox p{
-        font-size: 15px;
+        font-size: 10px;
         line-height: 24px;
     }
     .busimg{
@@ -1879,8 +1879,27 @@
         height: 80px;
     }
     .buscontent p{
-        font-size: 18px;
+        font-size: 15px;
         line-height: 32px;
+    }
+    .trafficbox{
+        flex-wrap: wrap;
+    }
+    .wisdombox{
+        width: 50%;
+        height: 50%;
+    }
+    .letterbox{
+        width: 50%;
+        height: 50%;
+    }
+    .museumbox{
+        width: 50%;
+        height: 50%;
+    }
+    .busbox{
+        width: 50%;
+        height: 50%;
     }
 }
 @media(min-width:768px){
