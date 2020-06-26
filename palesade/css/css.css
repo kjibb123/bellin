@@ -1,0 +1,172 @@
+@font-face { font-family: 'Arita-buri-SemiBold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Arita-buri-SemiBold.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+
+.main-bg{
+    position: relative;
+    width: 100%;
+    background: url('../images/PE1-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.text h1{
+    margin: 0 !important;
+}
+
+.brand-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.brand-logo img{
+    width: 10%;
+}
+
+.row{
+    margin: 0 !important;
+}
+.main-txt-box{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.text h1{
+    color: white;
+    width: 100%;
+    font-size: 100px;
+}
+
+.car-photo img{
+    width: 100%;
+}
+
+.car-photo{
+    padding-top: 40px;
+}
+
+
+
+.img-padding{padding-top: 20px;}
+.span-spacing p{margin-left: 3%;}
+.span-spacing span{margin-left:7%;}
+@media(max-width: 767px){
+    .text-main-padding{
+        padding: 0 !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .text h1{
+        font-size: 50px;
+    }
+    .text{
+        height: 100px;
+    }
+    .main-txt-box{
+        height: 300px;
+    }
+
+    .color-text a{
+        width: 10px;
+        height: 10px;
+    }
+    .car-title > h1{
+        font-size: 26px;
+    }
+    .car-photo h2{
+        font-size: 20px;
+    }
+    .text-content h1{
+        font-size: 24px;
+    }
+    
+}
+
+.section02{
+    width: 100%;   
+    padding-top: 40px;
+}
+
+.car-title h1{
+    padding-top: 40px;
+}
+
+.color-text>ul>li{
+    list-style: none;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    margin: 10px 15px;
+}
+
+.color-text>ul{
+    display: flex;
+    justify-content: center;
+}
+.color-text>ul>li{
+    cursor: pointer;
+}
+
+.text-content > ul >li{
+    list-style: none;
+}
+
+#white{
+    background-color: snow;
+}
+
+#moonlight{
+    background-color: #384e7a;
+}
+
+#burgundy{
+    background-color: #6e3d43;
+}
+
+#steal{
+    background-color: #5d5f63;
+}
+
+#black{
+    background-color: black;
+}
+
+#forest{
+    background-color: #55615f;
+}
+
+.moonlight,.burgundy,.steal,.forest,.black{
+    display: none;
+}
+
+
+.car-img img{
+    width: 100%;
+}
+
+.color-text > ul{
+    padding: 0 !important;
+}
+
+.text-content > ul{
+    padding: 0 !important;
+}
+
+.color-text a{
+    display: block;
+    width: 50px;
+    height: 50px;
+}
