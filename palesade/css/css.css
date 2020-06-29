@@ -104,7 +104,9 @@
         background-color: gray;
         height: 60px !important;
     }
-    
+    .modal{
+        width: 100% !important;
+    }
 }
 
 .section02{
@@ -226,12 +228,27 @@
 
 .modal{
     padding: 0 !important;
+    width: 60%;
 }
 
-.modal-body img{
-    width: 80%;
+.modal-body{
+    width: 100%;
 }
 
 .inner-margin-row{
     margin-top: 20px !important;
+}
+
+.modal{
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 100px;
+}
+.modal-header h4{
+    font-weight: bold;
+}
+
+.close{
+    width: 40px;
+    height: 40px;
 }
