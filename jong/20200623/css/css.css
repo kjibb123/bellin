@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+li{
+    list-style: none;
+}
+
+.all{
+    width: 1200px;
+    height: 700px;
+    background-color: lightblue;
+    margin: 0 auto;
+}
+
+header{
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+}
+
+.logo img{
+    width: 200px;
+    height: 40px;
+    padding: 30px 0;
+}
+
+.navi{
+    width: 600px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.navi > ul{
+    display: flex;
+    padding: 30px 0;
+}
+
+.menu > a{
+    display: block;
+    width: 150px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    background-color: blue;
+    color: white;
+    transition: 0.5s;
+}
+
+.submenu{
+    width: 150px;
+    padding: 10px 0;
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+
+.submenu3{
+    padding: 27px 0;
+}
+
+.submenu4{
+    padding: 27px 0;
+}
+
+
+.submenu > li > a{
+    display: block;
+    width: 150px;
+    line-height: 34px;
+    text-align: center;
+    font-size: 14px;
+    transition: 0.5s;
+}
+
+.navi > ul > li:hover>a{
+    background-color: aquamarine;
+    font-weight: bold;
+    color: black;
+    
+}
+
+.submenu > li > a:hover{
+    background-color: blue;
+    font-weight: bold;
+    color: white;
+}
+
+section{
+    width: 1200px;
+    height: 500px;
+}
+
+.slide{
+    width: 1200px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.slide_box{
+    width: 1200px;
+    height: 300px;
+    display: flex;
+}
+
+.slide_box img{
+    width: 1200px;
+    height: 300px;
+}
+
+.contents{
+    width: 1200px;
+    height: 200px;
+    display: flex;
+}
+
+.tab-contents{
+    width: 400px;
+    height: 200px;
+}
+
+.tab{
+    width: 400px;
+}
+
+.tab > ul{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.tab > ul > li > a{
+    display:block;
+    width: 110px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.notice{
+    width: 380px;
+    height: 150px;
+    background: white;
+    margin-left: 10px;
+}
+
+.notice > ul > li{
+    padding-top: 14px;
+    padding-left: 10px;
+}
+.notice > ul > li > span{
+    float: right;
+    margin-right: 10px;
+}
+.gallery{
+    display: none;
+    width: 380px;
+    height: 150px;
+    background-color: white;
+    margin-left: 10px;
+    justify-content: space-around;
+}
+
+.gallery img{
+    width: 100px;
+    height: 100px;
+    margin-top: 25px;
+}
+#tab-1{
+    background-color: white;
+}
+#tab-2{
+    background-color: aqua;
+}
+
+
+.banner{
+    width: 400px;
+    height: 200px;
+}
+
+.banner img{
+    width: 380px;
+    height: 180px;
+    padding: 10px;
+}
+
+.direct{
+    width: 400px;
+    height: 200px;
+}
+
+.direct img{
+    width: 380px;
+    height: 180px;
+    padding: 10px;
+}
+
+.popup{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: none;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.popup-body{
+    position: fixed;
+    left: 700px;
+    top: 200px;
+    width: 450px;
+    height: 300px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.popup-top h1{
+    border-bottom: 2px solid black;
+    background-color: lightblue;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    padding-left: 10px;
+}
+
+.popup-top p{
+    line-height: 32px;
+    padding-left: 10px;
+}
+
+.popup-bottom{
+    text-align: right;
+}
+
+.close{
+    cursor: pointer;
+    margin-top: 100px;
+    margin-right: 10px;
+}
+
+footer{
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    background-color: darkblue;
+}
+
+
+.bottom-logo{
+    width: 200px;
+    height: 100px;
+}
+
+.bottom-logo img{
+    width: 200px;
+    height: 40px;
+    padding: 30px 0;
+    filter: grayscale(30%);
+}
+
+.bottom{
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-menu{
+    display: inline-block;
+    width: 1000px;
+    height: 50px;
+}
+
+.bottom-menu > ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.bottom-menu > ul > li > a{
+    color: white;
+    
+}
+
+.copyright{
+    display: block;
+    width: 1000px;
+    height: 50px;
+    text-align: center;
+}
+
+.copyright p{
+    color: white;
+    padding: 10px 0;
+}

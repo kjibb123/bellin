@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+li{
+    list-style: none;
+}
+
+all{
+    width: 1000px;
+    height: 650px;
+    display: flex;
+}
+
+header{
+    width: 200px;
+    height: 650px;
+    background-color: lightcoral;
+    float: left;
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+}
+
+.logo img{
+    width: 200px;
+    height: 40px;
+    padding: 30px 0;
+}
+
+.navi{
+    width: 180px;
+    margin-left: 10px;
+}
+
+.border-menu{
+    border-bottom: 1px solid white;
+}
+
+.menu > a{
+    display: block;
+    width: 180px;
+    text-align: center;
+    background-color: coral;
+    line-height: 40px;
+    color: white;
+    transition: 0.5s;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    
+}
+
+.navi > ul > li:hover>a{
+    background-color: red;
+    font-weight: bold;
+}
+
+.submenu{
+    width: 180px;
+    height: 200px;
+    position: absolute;
+    z-index: 1;
+    left: 190px;
+    top: 100px;
+    background-color: red;
+    display: none;
+}
+
+.submenu > li > a{
+    display: block;
+    width: 180px;
+    text-align: center;
+    line-height: 34px;
+    font-size: 14px;
+    color: white;
+    background-color: red;
+    transition: 0.5;
+}
+
+.submenu > li > a:hover{
+    background-color: orange;
+    font-weight: bold;
+}
+
+.right-index{
+    width: 800px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section{
+    width: 800px;
+    height: 550px;
+}
+
+.slide{
+    width: 800px;
+    height: 350px;
+    overflow: hidden;
+}
+
+.slide_box{
+    width: 2400px;
+    height: 350px;
+    display: flex;
+}
+
+.slide_box img{
+    width: 800px;
+    height: 350px;
+}
+
+.contents{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    background-color: indianred;
+}
+
+.notice{
+    width: 300px;
+    height: 200px;
+}
+
+.gallery{
+    width: 300px;
+    height: 200px;
+}
+
+.banner{
+    width: 200px;
+    height: 200px;
+}
+
+.notice > a{
+    display: block;
+    width: 100px;
+    line-height: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: white;
+    text-align: center;
+}
+
+.tab-1{
+    width: 280px;
+    margin-left: 10px;
+    background-color: white;
+    height: 150px;
+}
+
+.tab-1 > ul > li {
+    padding-top: 15px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.tab-1 > ul > li > span{
+    float: right;
+    margin-right: 10px;
+}
+
+.tab-2 img{
+    width: 80px;
+    height: 80px;
+    padding: 35px 0;
+    cursor: pointer;
+}
+
+.tab-2 img:hover{
+    opacity: 0.5;
+}
+
+.gallery > a{
+    display: block;
+    width: 100px;
+    line-height: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: red;
+    text-align: center;
+    color: white;
+}
+
+.tab-2{
+    width: 280px;
+    height: 150px;
+    background-color: white;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner img{
+    width: 180px;
+    height: 180px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.popup{
+    position: fixed;
+    left: 400px;
+    top: 100px;
+    z-index: 999;
+    display: none;
+}
+
+.popup-body{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.popup-top h1{
+    padding-left: 10px;
+    border-bottom: 2px solid black;
+    background-color: red;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    
+}
+
+.popup-top p{
+    padding-left: 10px;
+    line-height: 34px;
+}
+
+.popup-bottom{
+    text-align: right;
+}
+
+.close{
+    margin-top: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+footer{
+    width: 800px;
+    height: 100px;
+    display: flex;
+}
+
+.bottom-logo{
+    width: 200px;
+    height: 100px;
+}
+
+.bottom-logo img{
+    width: 200px;
+    height: 40px;
+    padding: 30px 0;
+    filter: grayscale(100%);
+}
+
+.bottom{
+    display: block;
+    width: 600px;
+    height: 100px;
+}
+
+.bottom-menu{
+    width: 600px;
+    height: 50px;
+    display: block;
+
+}
+
+.bottom-menu > ul{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.bottom-menu > ul > li{
+    line-height: 30px;
+    padding: 10px 0;
+}
+
+.copyright{
+    width: 600px;
+    height: 50px;
+    text-align: center;
+    display: block;
+}
+
+.copyright p{
+    line-height: 30px;
+    display: block;
+}

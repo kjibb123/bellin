@@ -59,6 +59,7 @@ $(function(){
         $('.car-front').hide();
         $('.car-back').show();
         $('.point-1,.point-2,.point-3').hide();
+        $('.point-4,.point-5,.point-6').show();
 
         $('.car-front-text').css({backgroundColor:"black", color:"white"});
         $('.car-back-text').css({backgroundColor:"white", color:"black", border:"1px solid gray"});
@@ -67,6 +68,7 @@ $(function(){
         $('.car-back').hide();
         $('.car-front').show();
         $('.point-1,.point-2,.point-3').show();
+        $('.point-4,.point-5,.point-6').hide();
 
         $('.car-back-text').css({backgroundColor:"black", color:"white"});
         $('.car-front-text').css({backgroundColor:"white", color:"black", border:"1px solid gray"});
@@ -74,12 +76,16 @@ $(function(){
 });
 
 $(function(){
-    $('.button-1').click(function(){
+    $('.button-1,.button-4').click(function(){
         $('.ex01,.ex03').hide();
         $('.ex02,.ex04').show();
+        $('.ex07').hide();
+        $('.ex06').show();
     });
     $('.button-2,.button-3').click(function(){
         $('.ex01,.ex03').show();
         $('.ex02,.ex04').hide();
+        $('.ex07').show();
+        $('.ex06').hide();
     });
 });

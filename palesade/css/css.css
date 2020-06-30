@@ -99,16 +99,23 @@
     font-weight: bold;
 }
 
-.ex01,.ex02,.ex05{
+.ex01,.ex02,.ex06,.ex07{
+    margin: 0 auto;
+    width: 500px !important;
+    height: 600px !important;
+    background-color: white;
+}
+.ex03,.ex04,.ex08{
+    margin: 0 auto;
+    width: 500px !important;
+    height: 620px !important;
+    background-color: white;
+}
+
+.ex05,.ex09{
     margin: 0 auto;
     width: 500px !important;
     height: 550px !important;
-    background-color: white;
-}
-.ex03,.ex04{
-    margin: 0 auto;
-    width: 500px !important;
-    height: 570px !important;
     background-color: white;
 }
 
@@ -116,12 +123,12 @@
     text-align: right;
 }
 
-.ex02,.ex04{
+.ex02,.ex04,.ex07{
     display: none;
-    margin: 0 auto;
+    
 }
-.button-2{
-    margin-top: 30px;
+.button-2,.button-4{
+    margin-top: 50px;
 }
 
 .ex-photo img{
@@ -196,6 +203,23 @@
     left: 780px;
 }
 
+.point.point-4{
+    display: none;
+    top: -250px;
+    left: 780px;
+}
+
+.point.point-5{
+    display: none;
+    top: -370px;
+    left: 1000px;
+}
+.point.point-6{
+    display: none;
+    top: -240px;
+    left: 1180px;
+}
+
 .point {
     position: absolute;
     width: 32px;
@@ -262,6 +286,15 @@
     .modal{
         width: 100% !important;
     }
+
+    .car-photo{
+        margin-top: 0 !important;
+    }
+
+    .car-photo h1{
+        font-size: 24px;
+    }
+
     .point.point-1 {
         top: -190px;
         left: 130px;
@@ -275,6 +308,18 @@
     .point.point-3 {
         top: -140px;
         left: 170px;
+    }
+    .point.point-4{
+        top: -130px;
+        left: 160px;
+    }
+    .point.point-5{
+        top: -170px;
+        left: 230px;
+    }
+    .point.point-6{
+        top: -130px;
+        left: 300px;
     }
 }
 
