@@ -195,10 +195,7 @@
     top: -230px;
     left: 780px;
 }
-.point.point-4 {
-    top: 577px;
-    left: 514px;
-}
+
 .point {
     position: absolute;
     width: 32px;
@@ -264,6 +261,20 @@
     }
     .modal{
         width: 100% !important;
+    }
+    .point.point-1 {
+        top: -190px;
+        left: 130px;
+    }
+
+    .point.point-2 {
+        top: -170px;
+        left: 230px;
+    }
+
+    .point.point-3 {
+        top: -140px;
+        left: 170px;
     }
 }
 
