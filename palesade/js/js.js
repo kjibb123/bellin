@@ -53,3 +53,33 @@ $(function(){
         $('.forest').css("display","block").fadeIn();
     });
 });
+
+$(function(){
+    $('.car-back-text').click(function(){
+        $('.car-front').hide();
+        $('.car-back').show();
+        $('.point-1,.point-2,.point-3').hide();
+
+        $('.car-front-text').css({backgroundColor:"black", color:"white"});
+        $('.car-back-text').css({backgroundColor:"white", color:"black", border:"1px solid gray"});
+    });
+    $('.car-front-text').click(function(){
+        $('.car-back').hide();
+        $('.car-front').show();
+        $('.point-1,.point-2,.point-3').show();
+
+        $('.car-back-text').css({backgroundColor:"black", color:"white"});
+        $('.car-front-text').css({backgroundColor:"white", color:"black", border:"1px solid gray"});
+    });
+});
+
+$(function(){
+    $('.button-1').click(function(){
+        $('.ex01,.ex03').hide();
+        $('.ex02,.ex04').show();
+    });
+    $('.button-2,.button-3').click(function(){
+        $('.ex01,.ex03').show();
+        $('.ex02,.ex04').hide();
+    });
+});
