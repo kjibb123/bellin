@@ -1,0 +1,513 @@
+@font-face { font-family: 'Arita-buri-SemiBold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Arita-buri-SemiBold.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+
+.main-bg{
+    width: 100%;
+    height: 100vh;
+    background: url('../images/PE1-1.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.text h1{
+    margin: 0 !important;
+    font-family: 'Arita-buri-SemiBold';
+}
+
+.brand-logo{
+    width: 100%;
+    text-align: center;
+    
+}
+.brand-logo img{
+    width: 10%;
+    padding-top: 3%;
+    
+}
+
+.row{
+    margin: 0 !important;
+}
+.main-txt-box{
+    
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.text{
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text h1{
+    color: white;
+    width: 100%;
+    font-size: 100px;
+}
+
+.car-photo img{
+    width: 100%;
+}
+
+.car-photo{
+    padding-top: 40px;
+    position: relative;
+}
+.car-front{
+    position: relative;
+}
+.car-front-text{
+    cursor: pointer;
+    height: 60px;
+    line-height: 60px;
+    background-color: white;
+    border: 1px solid gray;
+}
+.car-back-text{
+    cursor: pointer;
+    height: 60px;
+    line-height: 60px;
+    background-color: black;
+    color: white;
+}
+
+.front-back{
+    margin-top: 40px;
+    position: relative;
+}
+.car-rel{
+    position: relative;
+}
+
+.car-front img{
+    position: relative;
+    max-width: 100%;
+}
+
+.car-back{
+    display: none;
+}
+
+.car-back img{
+    position: relative;
+    max-width: 100%;
+}
+
+.car-design{
+    margin-top: 50px;
+}
+
+
+.car-text-1{
+    margin-top: 80px;
+}
+
+
+.modal-footer{
+    padding-top: 30px;
+    text-align: left;
+}
+.modal-footer h4{
+    font-weight: bold;
+}
+
+.ex01,.ex02,.ex06,.ex07{
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+    background-color: white;
+}
+
+.ex03,.ex04,.ex08{
+    margin: 0 auto;
+    width: 50% !important;
+    height: 60% !important;
+    background-color: white;
+}
+
+.ex05,.ex09{
+    margin: 0 auto;
+    width: 50% !important;
+    height: 55% !important;
+    background-color: white;
+}
+
+.modal-button{
+    text-align: right;
+}
+
+.ex02,.ex04,.ex07{
+    display: none;
+    
+}
+.button-2,.button-4{
+    margin-top: 50px;
+}
+
+.ex-photo img{
+    cursor: pointer;
+}
+
+
+.point .bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 254, 254, 0.507);
+    /* rgba(0 , 171, 107, 0.12); 색상값! */
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    animation: record-lg 1.5s ease-in-out infinite;
+}
+
+@keyframes record-lg {
+	0% {
+		opacity: 0;
+		transform: scale(.5);
+	}
+	50% {
+		opacity: 1;
+		transform: scale(1);
+	}
+	100% {
+		opacity: 0;
+		transform: scale(1);
+	}
+}
+
+.point .dot {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    width: 8px;
+    height: 8px;
+    margin-top: -4px;
+    margin-left: -4px;
+    background-color: white;
+    border-radius: 50%;
+    animation: dot-effec 1.5s ease-in-out infinite;
+}
+
+@keyframes dot-effec {
+	0% {
+		opacity: .5;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: .5;
+	}
+}
+
+
+.point.point-1 {
+    top: 47%;
+    left: 30%;
+}
+.point.point-2 {
+    top: 53%;
+    left: 53%;
+}
+.point.point-3 {
+    top: 67%;
+    left: 40%;
+}
+
+.point.point-4{
+    display: none;
+    top: 60%;
+    left: 35%;
+}
+
+.point.point-5{
+    display: none;
+    top: 47%;
+    left: 55%;
+}
+.point.point-6{
+    display: none;
+    top: 70%;
+    left: 67%;
+}
+
+.point {
+    position: absolute;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+}
+
+
+.img-padding{padding-top: 20px;}
+.span-spacing p{margin-left: 3%;}
+.span-spacing span{margin-left:7%;}
+@media(max-width: 767px){
+    .text-main-padding{
+        padding: 0 !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    
+    .text{
+        height: 100%;
+    }
+    
+
+    .color-text a{
+        width: 10px;
+        height: 10px;
+    }
+    .car-title > h1{
+        font-size: 26px;
+    }
+    .car-photo h2{
+        font-size: 20px;
+    }
+    .text-content h1{
+        font-size: 24px;
+    }
+    
+    .in-title h1{
+        font-size: 24px;
+        margin-top: 16px !important;
+    }
+    .in-title{
+        height: 60px !important;
+    }
+    .modal{
+        width: 90% !important;
+        margin-top: 200px;
+        padding: 0 !important;
+    }
+    .modal img{
+        width: 90% !important;
+    }
+
+    .car-photo{
+        margin-top: 0 !important;
+    }
+
+    .car-photo h1{
+        font-size: 24px;
+    }
+
+    
+    .modal-content{
+        width: 100% !important;
+    }
+    .inner{
+        margin-top: 20% !important;
+    }
+    .inner img{
+        width: 100% !important;
+    }
+}
+
+.car-title h1{
+    padding-top: 40px;
+}
+
+.car-titles p{
+    font-weight: bold;
+}
+
+.color-text>ul>li{
+    list-style: none;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    margin: 10px 15px;
+}
+
+.color-text>ul{
+    display: flex;
+    justify-content: center;
+}
+.color-text>ul>li{
+    cursor: pointer;
+}
+
+.text-content > ul >li{
+    list-style: none;
+}
+
+#white{
+    background-color: snow;
+}
+
+#moonlight{
+    background-color: #384e7a;
+}
+
+#burgundy{
+    background-color: #6e3d43;
+}
+
+#steal{
+    background-color: #5d5f63;
+}
+
+#black{
+    background-color: black;
+}
+
+#forest{
+    background-color: #55615f;
+}
+
+.moonlight,.burgundy,.steal,.forest,.black{
+    display: none;
+}
+
+
+.car-img img{
+    width: 100%;
+}
+
+
+.color-text > ul{
+    padding: 0 !important;
+}
+
+.text-content > ul{
+    padding: 0 !important;
+}
+
+.color-text a{
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+.wheel{
+    margin-top: 5%;
+}
+.wheel2{
+    margin-bottom: 5%;
+}
+
+.in-title{
+    height: 80px;
+}
+
+.in-second{
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+
+.in-padding{
+    padding: 0 !important;
+}
+
+.inner-color{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.in-text{
+    margin-top: 30px;
+}
+
+.in-text h4{
+    font-weight: bold;
+}
+
+.modal{
+    padding: 0 !important;
+    width: 100%;
+    margin-top: 100px;
+    
+}
+.modal-body{
+    width: 100%;
+}
+
+.modal-header h4{
+    font-weight: bold;
+}
+
+.close{
+    width: 40px;
+    height: 40px;
+}
+
+.interior-margin h1{
+    margin-top: 120px;
+}
+
+section{
+    position: relative;
+}
+
+
+.modal-backdrop{
+    position: relative;
+}
+/* 슬라이드 css */
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .inner img{
+      width: 70%;
+  }
+
+  .swiper-slide{
+      display: block;
+  }
+
+  .swiper-pagination{
+      position: absolute;
+      top: 88%;
+  }
+  
+ .swiper-wrapper{
+     position: relative;
+ }
+
+ .swiper-slide{
+     position: absolute;
+ }
+
+ .in-first{
+     margin-top: 40px;
+ }
+
+ 
