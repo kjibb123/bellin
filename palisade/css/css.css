@@ -50,12 +50,15 @@
     font-size: 100px;
 }
 
+.car-design-title h5{
+    padding: 0;
+}
 .car-photo img{
     width: 100%;
 }
 
 .car-photo{
-    padding-top: 40px;
+    padding-top: 3%;
     position: relative;
 }
 .car-front{
@@ -98,15 +101,10 @@
     max-width: 100%;
 }
 
-.car-design{
-    margin-top: 50px;
-}
-
 
 .car-text-1{
-    margin-top: 80px;
+    margin-top: 2%;
 }
-
 
 .modal-footer{
     padding-top: 30px;
@@ -315,10 +313,16 @@
     .inner img{
         width: 100% !important;
     }
+    .car-design1 img{
+        width: 50%;
+    }
+    .car-design2 h3{
+        font-size: 16px;
+    }
 }
 
 .car-title h1{
-    padding-top: 40px;
+    padding-top: 3%;
 }
 
 .car-titles p{
@@ -348,16 +352,31 @@
     background-color: snow;
 }
 
+.white h1{
+    color: snow;
+}
+
 #moonlight{
     background-color: #384e7a;
+}
+
+.moonlight h1{
+    color: #384e7a;
 }
 
 #burgundy{
     background-color: #6e3d43;
 }
 
+.burgundy h1{
+    color: #6e3d43;
+}
 #steal{
     background-color: #5d5f63;
+}
+
+.steal h1{
+    color: #5d5f63;
 }
 
 #black{
@@ -366,6 +385,10 @@
 
 #forest{
     background-color: #55615f;
+}
+
+.forest h1{
+    color: #55615f;
 }
 
 .moonlight,.burgundy,.steal,.forest,.black{
@@ -403,8 +426,12 @@
     height: 80px;
 }
 
+.in-title2{
+    padding-top: 2%;
+}
+
 .in-second{
-    margin-top: 30px;
+    margin-top: 1%;
     font-weight: bold;
 }
 
@@ -510,4 +537,198 @@ section{
      margin-top: 40px;
  }
 
- 
+
+ .car-design1{
+     background-color: #5d5f63;
+     padding-bottom: 2%;
+ }
+
+ .car-design1 img{
+     width: 80%;
+     
+ }
+
+ .section02{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+ }
+ .car-design2{
+    background-color: #5d5f63;
+    padding: 2% 0;
+    color: white;
+    
+ }
+
+ .section03{
+     background-color: #ccc;
+     height: 100vh;
+ }
+
+
+.wheel-photo{
+    margin-top: 3%;
+}
+
+.wheel-photo img{
+    width: 100%;
+}
+
+.wheel-photo h4{
+    padding-top: 4%;
+}
+
+.wheel-title{
+    padding-top: 2%;
+}
+
+.space{
+    padding-top: 1%;
+}
+
+.space-btn{
+    margin-top: 1%;
+}
+
+.space-title h5{
+    padding-top: 1%;
+}
+
+.space-photo{
+    padding: 2.5% 0;
+}
+
+.space-photo-2{
+    padding: 8% 0;
+    display: none;
+}
+
+.space-background{
+    width: 100%;
+    background-color: black;
+    margin-top: 1.5%;
+}
+.space-photo img{
+    width: 100%;
+}
+
+.space-photo-2 img{
+    width: 100%;
+}
+
+.space-photo > .row > .col-sm-4:hover > img{
+    opacity: 50%;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.space-photo-2 > .row > .col-sm-3:hover > img{
+    opacity: 50%;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.space-photo p, .space-photo-2 p{
+    position: absolute;
+    display: none;
+    top: 50%;
+    left: 30%;
+    color: white;
+    
+}
+
+.in-4-images p{
+    position: absolute;
+    top: 50%;
+    left: 17%;
+}
+
+.in-7-images p{
+    top: 50%;
+    left: 18%;
+}
+
+.in-8-images p{
+    top: 50%;
+    left: 35%;
+}
+
+.space-padding{
+    padding-top: 3%;
+}
+
+.space-front-text{
+    cursor: pointer;
+    height: 60px;
+    line-height: 60px;
+    background-color: white;
+    border: 1px solid gray;
+}
+.space-back-text{
+    cursor: pointer;
+    height: 60px;
+    line-height: 60px;
+    background-color: black;
+    color: white;
+}
+
+/* 섹션05 */
+
+.seat-title{
+    padding-top: 3%;
+}
+
+.seat-button{
+    padding-top: 3%;
+}
+
+.seat-photo img{
+    width: 50%;
+}
+
+.seat-0{
+    display: none;
+}
+
+.seat-text{
+    background-color: #f6f3f2;
+    padding: 2% 0;
+}
+
+.seat-text-1 h5{
+    padding-top: 25%;
+}
+
+/* 섹션 07 */
+
+.img-comp-container {
+    position: relative;
+    height: 200px; /*should be the same height as the images*/
+  }
+  
+  .img-comp-img {
+    position: absolute;
+    width: auto;
+    height: auto;
+    overflow:hidden;
+  }
+  
+  .img-comp-img img {
+    display:block;
+    vertical-align:middle;
+  }
+  
+  .img-comp-slider {
+    position: absolute;
+    z-index:9;
+    cursor: ew-resize;
+    /*set the appearance of the slider:*/
+    width: 40px;
+    height: 40px;
+    background-color: #2196F3;
+    opacity: 0.7;
+    border-radius: 50%;
+  }
+  
+  .section07{
+      width: 100%;
+  }
