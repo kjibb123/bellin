@@ -119,22 +119,27 @@ $(function(){
     $('.sit-1').click(function(){
         $('.seat-1').show();
         $('.seat-img img:gt(0)').hide();
+        $('.seat-text').css({marginTop:'0'});
     });
     $('.sit-2').click(function(){
         $('.seat-2').show();
         $('.seat-1,.seat-3,.seat-4,.seat-5').hide();
+        $('.seat-text').css({marginTop:'0'});
     });
     $('.sit-3').click(function(){
         $('.seat-3').show();
         $('.seat-1,.seat-2,.seat-4,.seat-5').hide();
+        $('.seat-text').css({marginTop:'0'});
     });
     $('.sit-4').click(function(){
         $('.seat-4').show();
         $('.seat-1,.seat-3,.seat-2,.seat-5').hide();
+        $('.seat-text').css({marginTop:'0'});
     });
     $('.sit-5').click(function(){
         $('.seat-5').show();
         $('.seat-1,.seat-3,.seat-4,.seat-2').hide();
+        $('.seat-text').css({marginTop:'0'});
     });
 });
 
@@ -215,3 +220,11 @@ function initComparisons() {
     }
   }
 }
+
+
+
+$(function(){
+    $('.vip-2-1').click(function(){
+        $('.ex10').fadeIn();
+    });
+});

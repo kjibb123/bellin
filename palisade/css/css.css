@@ -51,14 +51,14 @@
 }
 
 .car-design-title h5{
-    padding: 0;
+    padding: 0 !important;
 }
 .car-photo img{
     width: 100%;
 }
 
 .car-photo{
-    padding-top: 3%;
+    padding-top: 2%;
     position: relative;
 }
 .car-front{
@@ -105,6 +105,7 @@
 .car-text-1{
     margin-top: 2%;
 }
+
 
 .modal-footer{
     padding-top: 30px;
@@ -322,7 +323,7 @@
 }
 
 .car-title h1{
-    padding-top: 3%;
+    padding-top: 4%;
 }
 
 .car-titles p{
@@ -415,12 +416,6 @@
     height: 50px;
 }
 
-.wheel{
-    margin-top: 5%;
-}
-.wheel2{
-    margin-bottom: 5%;
-}
 
 .in-title{
     height: 80px;
@@ -472,9 +467,6 @@
     height: 40px;
 }
 
-.interior-margin h1{
-    margin-top: 120px;
-}
 
 section{
     position: relative;
@@ -540,11 +532,11 @@ section{
 
  .car-design1{
      background-color: #5d5f63;
-     padding-bottom: 2%;
+     padding-bottom: 1%;
  }
 
  .car-design1 img{
-     width: 80%;
+     width: 100%;
      
  }
 
@@ -566,23 +558,23 @@ section{
 
 
 .wheel-photo{
-    margin-top: 3%;
+    margin-top: 2%;
 }
 
 .wheel-photo img{
-    width: 100%;
-}
-
-.wheel-photo h4{
-    padding-top: 4%;
+    width: 80%;
 }
 
 .wheel-title{
     padding-top: 2%;
 }
 
+.wheel-photo h4{
+    padding-top: 2%;
+}
+
 .space{
-    padding-top: 1%;
+    padding-top: 2%;
 }
 
 .space-btn{
@@ -594,18 +586,18 @@ section{
 }
 
 .space-photo{
-    padding: 2.5% 0;
+    padding: 2% 0;
 }
 
 .space-photo-2{
-    padding: 8% 0;
+    padding: 7.5% 0;
     display: none;
 }
 
 .space-background{
     width: 100%;
     background-color: black;
-    margin-top: 1.5%;
+    margin-top: 2%;
 }
 .space-photo img{
     width: 100%;
@@ -678,7 +670,7 @@ section{
 }
 
 .seat-button{
-    padding-top: 3%;
+    padding-top: 1%;
 }
 
 .seat-photo img{
@@ -692,13 +684,89 @@ section{
 .seat-text{
     background-color: #f6f3f2;
     padding: 2% 0;
+    margin-top: 19%;
 }
 
 .seat-text-1 h5{
     padding-top: 25%;
 }
+.seat-empty{
+    width: 100%;
+    color: white;
+}
 
 /* 섹션 07 */
+
+.cal{
+    padding-top: 3%;
+}
+
+.cal-photo{
+    padding-top: 8%;
+}
+
+.cal-photo img{
+    width: 100%;
+}
+
+.section07{
+    width: 100%;
+    height: 100vh;
+    background-color: #f6f3f2;
+}
+
+.cal-1-text{
+    padding-top: 4%;
+}
+
+/* 섹션 08 */
+
+.vip h2{
+    padding-top: 2%;
+}
+
+.vip-photo{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.vip-page{
+    padding-top: 2%;
+    position: relative;
+}
+.vip-2{
+    display: flex;
+    cursor: pointer;
+}
+
+.vip-1 img{
+    width: 100%;
+}
+
+.vip-2 img{
+    width: 100%;
+}
+
+
+.vip-2 img:hover{
+    opacity: 50%;
+}
+.ex10,.ex11,.ex12,.ex13,.ex14{
+    margin: 0 auto;
+    background-color: white;
+    width: 60%;
+    height: 100%;
+}
+
+/* 섹션 09 */
+.conv h2{
+    padding-top: 2%;
+}
+
+
+
+/* 섹션 10 */
 
 .img-comp-container {
     position: relative;
@@ -729,6 +797,5 @@ section{
     border-radius: 50%;
   }
   
-  .section07{
-      width: 100%;
-  }
+  
+
