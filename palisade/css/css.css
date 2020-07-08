@@ -722,7 +722,7 @@ section{
 /* 섹션 08 */
 
 .vip h2{
-    padding-top: 2%;
+    padding-top: 1%;
 }
 
 .vip-photo{
@@ -732,13 +732,26 @@ section{
 }
 
 .vip-page{
-    padding-top: 2%;
+    padding-top: 1%;
     position: relative;
+    display: flex;
 }
 .vip-2{
     display: flex;
     cursor: pointer;
 }
+
+.vip-photo-2{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1%;
+}
+
+
+.vip002 img{
+    padding-top: 5%;
+}
+
 
 .vip-1 img{
     width: 100%;
@@ -755,7 +768,7 @@ section{
 .ex10,.ex11,.ex12,.ex13,.ex14{
     margin: 0 auto;
     background-color: white;
-    width: 60%;
+    width: 30%;
     height: 100%;
 }
 
@@ -764,38 +777,62 @@ section{
     padding-top: 2%;
 }
 
+.convs{
+    display: flex;
+    width: 100%;
+    padding-top: 2%;
+}
+
+.conv-photo1{
+    width: 60%;
+}
+
+.conv-photo1 img{
+    width: 100%;
+}
+
+.conv-photo1 h3{
+    padding-top: 2%;
+}
+.conv-photo2{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.conv-photo2 div{
+    display: flex;
+    height: 33%;
+    align-items: center;
+    justify-content: center;
+}
+
+.conv-photo3{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.conv-photo3 div{
+    display: flex;
+    height: 33.3%;
+    padding-bottom: 1%;
+}
+
+.section09{
+    height: 100vh;
+    background-color: #f6f3f2;
+}
 
 
-/* 섹션 10 */
+/* 섹션10 */
 
-.img-comp-container {
-    position: relative;
-    height: 200px; /*should be the same height as the images*/
-  }
-  
-  .img-comp-img {
-    position: absolute;
-    width: auto;
-    height: auto;
-    overflow:hidden;
-  }
-  
-  .img-comp-img img {
-    display:block;
-    vertical-align:middle;
-  }
-  
-  .img-comp-slider {
-    position: absolute;
-    z-index:9;
-    cursor: ew-resize;
-    /*set the appearance of the slider:*/
-    width: 40px;
-    height: 40px;
-    background-color: #2196F3;
-    opacity: 0.7;
-    border-radius: 50%;
-  }
-  
-  
+.performance h1{
+    padding-top: 2%;
+}
+.performance h3{
+    padding-top: 1%;
+    font-weight: bold;
+}
 
+.perf-photo{
+    padding-top: 2%;
+}
