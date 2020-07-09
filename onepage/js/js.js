@@ -50,7 +50,7 @@ $(function(){
     });
     // 지혜의숲 hover 색 변화 효과
     $('.box5').mouseenter(function(){
-        $('.box5').css("background","#dce223");
+        $('.box5').css("background","#fed100");
         $('#box5').css("color","white");
     });
     $('.box5').mouseleave(function(){
@@ -59,7 +59,7 @@ $(function(){
     });
     // 지지향 hover 색 변화 효과
     $('.box6').mouseenter(function(){
-        $('.box6').css("background","#bbc110");
+        $('.box6').css("background","#fed100");
         $('#box6').css("color","white");
     });
     $('.box6').mouseleave(function(){

@@ -94,7 +94,10 @@ $(function(){
     $('.space-photo > .row > .col-sm-4').hover(function(){
         $(this).children('.space-photo p').stop().fadeToggle();
     });
-    $('.space-photo-2 > .row > .col-sm-3').hover(function(){
+    $('.space-photo-2 > .row > .space-1 > .col-sm-3').hover(function(){
+        $(this).children('.space-photo-2 p').stop().fadeToggle();
+    });
+    $('.space-photo-2 > .row > .space-2 > .col-sm-3').hover(function(){
         $(this).children('.space-photo-2 p').stop().fadeToggle();
     });
 });
@@ -102,6 +105,7 @@ $(function(){
 $(function(){
     $('.space-back-text').click(function(){
         $('.space-photo-2').fadeIn();
+        
         $('.space-photo').fadeOut();
         $('.space-front-text').css({backgroundColor:"black", color:"white"});
         $('.space-back-text').css({backgroundColor:"white", color:"black", border:"1px solid gray"});
@@ -109,6 +113,7 @@ $(function(){
     $('.space-front-text').click(function(){
         $('.space-photo-2').fadeOut();
         $('.space-photo').fadeIn();
+        
 
         $('.space-back-text').css({backgroundColor:"black", color:"white"});
         $('.space-front-text').css({backgroundColor:"white", color:"black", border:"1px solid gray"});
@@ -228,3 +233,75 @@ $(function(){
         $('.ex10').fadeIn();
     });
 });
+
+var memberCountConTxt= 295;
+  
+$({ val : 0 }).animate({ val : memberCountConTxt }, {
+ duration: 2000,
+step: function() {
+  var num = numberWithCommas(Math.floor(this.val));
+  $(".memberCountCon").text(num);
+},
+complete: function() {
+  var num = numberWithCommas(Math.floor(this.val));
+  $(".memberCountCon").text(num);
+}
+});
+
+function numberWithCommas(x) {
+  return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+
+var memberCountConTxt1= 36;
+  
+$({ val : 0 }).animate({ val : memberCountConTxt1 }, {
+ duration: 2000,
+step: function() {
+  var num = numberWithCommas(Math.floor(this.val));
+  $(".memberCountCon2").text(num);
+},
+complete: function() {
+  var num = numberWithCommas(Math.floor(this.val));
+  $(".memberCountCon2").text(num);
+}
+});
+
+function numberWithCommas(x) {
+  return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+
+var memberCountConTxt2= 202;
+  
+$({ val : 0 }).animate({ val : memberCountConTxt2 }, {
+ duration: 2000,
+step: function() {
+  var num = numberWithCommas(Math.floor(this.val));
+  $(".memberCountCon3").text(num);
+},
+complete: function() {
+  var num = numberWithCommas(Math.floor(this.val));
+  $(".memberCountCon3").text(num);
+}
+});
+
+function numberWithCommas(x) {
+  return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+
+var memberCountConTxt3= 45;
+  
+$({ val : 0 }).animate({ val : memberCountConTxt3 }, {
+ duration: 2000,
+step: function() {
+  var num = numberWithCommas(Math.floor(this.val));
+  $(".memberCountCon4").text(num);
+},
+complete: function() {
+  var num = numberWithCommas(Math.floor(this.val));
+  $(".memberCountCon4").text(num);
+}
+});
+
+function numberWithCommas(x) {
+  return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
