@@ -617,9 +617,19 @@ section{
 }
 
 /* 섹션05 */
-
+.seat-flu{
+    padding-left: 0;
+    padding-right: 0;
+}
+.seat-padding{
+    padding-left: 0;
+    padding-right: 0;
+}
 .seat-title{
     padding-top: 3%;
+    
+}
+.seat-title h3{
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -972,7 +982,7 @@ section{
         background-color: white;
         margin-top: 10%;
         width:100%;
-        height: 200px;
+        
         
     }
     .cus-1,.cus-2{
@@ -999,7 +1009,7 @@ section{
         background-color: white;
         margin-top: 10%;
         width: 100%;
-        height: 200px;
+        
 
     }
     .ask-1{
@@ -1017,9 +1027,6 @@ section{
     .ask-2 a{
         text-decoration: none;
         cursor: pointer;
-    }
-    .bottom-menu{
-        padding-top: 5%;
     }
     .customer-title h1{
         font-weight: bold;
@@ -1065,8 +1072,7 @@ section{
     .footer{
         width: 100%;
         background-color: #222222;
-        margin-top: 10%;
-        
+        padding-top: 2%;
     }
     .section14 > .bottom-bg > .container-fluid{
         padding-left: 0 !important;
@@ -1078,7 +1084,6 @@ section{
         flex-direction: row;
         justify-content: space-around;
         color: white;
-        padding: 3% 0;
     }
     .kji{
         width: 50%;
@@ -1090,6 +1095,19 @@ section{
     .footer-menu{
         width: 50%;
     }    
+
+    .hy-1{
+        height: 15vh;
+    }
+    .hy-2{
+        height: 35vh;
+    }
+    .hy-3{
+        height: 30vh;
+    }
+    .hy-4{
+        height: 20vh;
+    }
     
 
 @media(max-width:992px){
@@ -1186,12 +1204,7 @@ section{
     .smart-photo{
         padding-top: 20%;
     }
-    .customer{
-        height: 240px;
-    }
-    .ask{
-        height: 240px;
-    }
+    
 }
 
 
@@ -1506,14 +1519,64 @@ section{
         width: 100% !important;
     }
     .customer{
-        height: 200px;
+        
         margin-top: 10%;
     }
     .ask{
-        height: 200px;
+        
         margin-top: 10%;
     }
-    
+    .cus-1 img{
+        width: 50%;
+    }
+    .ask-1 img{
+        width: 50%;
+    }
+    .cus-2 h4{
+        font-size: 14px;
+    }
+    .cus-3 h4{
+        font-size: 14px;
+    }
+    .cus-2 h5{
+        font-size: 12px;
+    }
+    .cus-3 h5{
+        font-size: 12px;
+    }
+    .ask-2 h5{
+        font-size: 12px;
+    }
+    .ask-1{
+        padding: 0;
+    }
+    .ask-2{
+        padding: 0;
+    }
+    .cus-2,.cus-3{
+        padding: 0;
+    }
+    .cus-1{
+        padding: 0;
+    }
+    .customer-title h1{
+        font-size: 26px;
+    }
+    .bottoms{
+        padding-top: 5%;
+    }
+    .hy-1{
+        height: 10vh;
+    }
+    .hy-2{
+        height: 35vh;
+    }
+    .hy-3{
+        height: 35vh;
+    }
+    .hy-4{
+        height: 20vh;
+    }
 }
 
 @media(max-width:500px){
@@ -1591,5 +1654,13 @@ section{
     .hy h1{
         padding-top: 5%;
     }
-    
+    .bottoms p{
+        font-size: 10px;
+    }
+    .footer{
+        margin-top: 5%;
+    }
+    .footer-menu{
+        display: none;
+    }
 }
