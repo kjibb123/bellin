@@ -1,5 +1,9 @@
 @font-face { font-family: 'Arita-buri-SemiBold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Arita-buri-SemiBold.woff') format('woff'); font-weight: normal; font-style: normal; }
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+}
 section{
     height: 100vh;
 }
@@ -50,6 +54,9 @@ section{
     color: white;
     width: 100%;
     font-size: 100px;
+}
+.car-design-title h1{
+    font-weight: bold;
 }
 
 .car-design-title h5{
@@ -253,6 +260,7 @@ section{
 
 .car-title h1{
     padding-top: 4%;
+    font-weight: bold;
 }
 
 .car-titles p{
@@ -352,6 +360,9 @@ section{
 
 .in-title2{
     padding-top: 2%;
+}
+.in-title2 h1{
+    font-weight: bold;
 }
 
 .in-second{
@@ -493,6 +504,9 @@ section{
 .wheel-title{
     padding-top: 3%;
 }
+.wheel-title h2{
+    font-weight: bold;
+}
 
 .wheel-photo h4{
     padding-top: 2%;
@@ -504,6 +518,10 @@ section{
 
 .space-btn{
     margin-top: 1%;
+}
+
+.space-title h1{
+    font-weight: bold;
 }
 
 .space-title h5{
@@ -625,6 +643,8 @@ section{
 
 .seat-text-1 h5{
     padding-top: 25%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 .seat-empty{
     width: 100%;
@@ -662,17 +682,18 @@ section{
 /* 섹션 08 */
 
 .vip h2{
-    padding-top: 2%;
+    padding-top: 5%;
+    font-weight: bold;
 }
 
 .vip-photo{
+    width: 100%;
     display: flex;
     flex-direction: column;
-    
 }
 
 .vip-page{
-    padding-top: 1%;
+    padding-top: 5%;
     position: relative;
     display: flex;
 }
@@ -687,8 +708,13 @@ section{
     padding-left: 1%;
 }
 
+.vip001 img{
+    width: 90%;
+}
+
 .vip002 img{
-    padding-top: 8%;
+    padding-top: 3%;
+    width: 90%;
 }
 
 
@@ -707,7 +733,7 @@ section{
 .ex10,.ex11,.ex12,.ex13,.ex14{
     margin: 0 auto;
     background-color: white;
-    width: 30%;
+    width: 40%;
     height: 100%;
     margin-top: 8%;
 }
@@ -715,6 +741,7 @@ section{
 /* 섹션 09 */
 .conv h2{
     padding-top: 3%;
+    font-weight: bold;
 }
 
 .convs{
@@ -745,6 +772,7 @@ section{
     align-items: center;
     justify-content: center;
 }
+
 
 .conv-photo3{
     width: 20%;
@@ -783,18 +811,22 @@ section{
 
 .performance h1{
     padding-top: 3%;
+    font-weight: bold;
 }
 .performance h3{
     padding-top: 2%;
     font-weight: bold;
 }
 
+.performance h4{
+    padding-top: 5%;
+}
+
 .perf-photo{
     padding-top: 7%;
 }
-
-.conv-photo-5{
-    padding-top: 1%;
+.perf-photo img{
+    width: 100%;
 }
 
 .conv-photo-6 img{
@@ -813,6 +845,9 @@ section{
 
 .speed{
     padding-top: 5%;
+}
+.speed h1{
+    font-weight: bold;
 }
 
 .speed-left, .speed-right{
@@ -871,6 +906,10 @@ section{
 .hy{
     padding-top: 5%;
 }
+
+.hy h1{
+    font-weight: bold;
+}
 .smart-photo{
     padding-top: 10%;
 }
@@ -897,6 +936,8 @@ section{
 
   .smart-1 p{
       padding-bottom: 5%;
+      padding-left: 5%;
+      padding-right: 5%;
   }
 
   .smart-1:hover{
@@ -915,6 +956,142 @@ section{
     width: 100%;
     height: 100%;
 }
+
+    .modal-body video{
+        width: 100%;
+    }
+
+    .bottom-bg{
+        width: 100%;
+        height: 100vh;
+        background-color: #f6f3f2;
+    }
+
+    .customer{
+        display: flex;
+        background-color: white;
+        margin-top: 10%;
+        width:100%;
+        height: 200px;
+        
+    }
+    .cus-1,.cus-2{
+        width: 33.3%;
+        padding: 5%;
+    }
+    .cus-2 h4{
+        font-weight: bold;
+    }
+    .cus-3 h4{
+        color: teal;
+    }
+    .cus-3{
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-right: 5%;
+    }
+    .cus-1 img{
+        width: 100%;
+    }
+
+    .ask{
+        display: flex;
+        background-color: white;
+        margin-top: 10%;
+        width: 100%;
+        height: 200px;
+
+    }
+    .ask-1{
+        width: 33.3%;
+        padding: 5%;
+    }
+    .ask-1 img{
+        width: 100%;
+    }
+
+    .ask-2{
+        width: 66.6%;
+        padding: 8%;
+    }
+    .ask-2 a{
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .bottom-menu{
+        padding-top: 5%;
+    }
+    .customer-title h1{
+        font-weight: bold;
+        padding-top: 3%;
+    }
+
+    .footer-1{
+        background: url('../images/bottom-bg1.png');
+        background-position: center;
+    }
+    .footer-2{
+        background: url('../images/bottom-bg.jpg');
+        background-position: center;
+    }
+
+    .footer-3{
+        background: url('../images/S.png');
+        background-position: center;
+    }
+    .footer-1,.footer-2,.footer-3{
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        width: 100%;
+    }
+    .footer-0 a{
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .footer-0:hover{
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    .footer-0:hover>a{
+        color: white;
+    }
+
+    .footer{
+        width: 100%;
+        background-color: #222222;
+        margin-top: 10%;
+        
+    }
+    .section14 > .bottom-bg > .container-fluid{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .bottoms{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        color: white;
+        padding: 3% 0;
+    }
+    .kji{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .footer-menu{
+        width: 50%;
+    }    
+    
+
 @media(max-width:992px){
     .seat-text-1 h5{
       padding-top: 10%;  
@@ -924,6 +1101,96 @@ section{
     }
     .in-photo img{
         width: 90%;
+    }
+    .seat-photo img{
+        width: 80%;
+    }
+    .vip h2{
+        padding-top: 2%;
+    }
+    .vip-page{
+        display: flex;
+        flex-direction: column;
+    }
+    .vip-photo-2{
+        display: flex;
+        flex-direction: row;
+    }
+    .vip001 img{
+        padding-top: 3%;
+    }
+    .vip002 img{
+        padding-top: 3%;
+    }
+    .vip001,.vip002{
+        width: 100%;
+    }
+    .vip-photo-2 img{
+        width: 85%;
+    }
+    .vip-photo-2 h4{
+        font-size: 20px;
+    }
+    .ex10,.ex11,.ex12,.ex13,.ex14{
+        margin: 0 auto;
+        background-color: white;
+        width: 60%;
+        height: 100%;
+        margin-top: 8%;
+    }
+    
+    .conv-photo1 h3{
+        padding-top: 20%;
+    }
+    .conv-photo2 h3{
+        font-size: 17px;
+    }
+    .convs{
+        padding-top: 10%;
+    }
+    .conv{
+        padding-top: 5%;
+    }
+    .conv-photo-4{
+        padding-top: 10%;
+    }
+
+    .conv-5-title img, .conv-6-title img{
+        width: 100%;
+    }
+
+    .conv-photo-5 img{
+        width: 100%;
+    }
+
+    .performance h1{
+        padding-top: 15%;
+        
+    }
+    .performance h4{
+        font-size: 16px;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 5%;
+    }
+
+    .sp h4{
+        font-size: 16px;
+    }
+    .memberCountCon, .memberCountCon2, .memberCountCon3, .memberCountCon4{
+        font-size: 36px;
+    }
+    .smart-1 p{
+        font-size: 16px;
+    }
+    .smart-photo{
+        padding-top: 20%;
+    }
+    .customer{
+        height: 240px;
+    }
+    .ask{
+        height: 240px;
     }
 }
 
@@ -1088,11 +1355,143 @@ section{
     .cal-1-text{
         padding-left: 2%;
     }
+    /* 섹션7끝 */
 
+    .vip-photo-2{
+        display : block;
+        }
+        
+        .vip-photo-2 img{
+        width:50%;
+        }
+        
+        .vip001,.vip002{
+        display : flex;
+        align-items: center;
+        width: 100%;
+        }
+    
+        .vip001 img{
+        padding-top: 2%;
+        }
+        
+        .vip002 img{
+        padding-top:2%;
+        }
+
+        .vip-photo-2 h4{
+            font-size: 16px;
+            width: 50%;
+        }
+        .vip h2{
+            font-size: 20px;
+        }
+        .conv-photo-3{
+            display: flex;
+            
+        }
+        .conv-photo2{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+        }
+        .conv-photo2 div{
+            width:33.3%;
+        }
+       
+
+
+    /* 섹션8끝 */
+
+        .convs{
+            display: block;
+        }
+        .conv-photo1{
+            width: 100%;
+        }
+        .conv-photo1 h3{
+            padding-top: 2%;
+        }
+        .conv-photo1 h3{
+            font-size: 20px;
+        }
+        .conv-photo1 h4{
+            font-size: 16px;
+        }
+        
+
+    /* 섹션9끝 */
+
+    .conv-5 img, .conv-6 img{
+        width: 100%;
+    }
+
+    .conv-5-txt h3, .conv-6-txt h3{
+        font-size: 18px;
+    }
+    .conv-photo-6 img{
+        width: 100%;
+    }
+
+    .conv-5-title, .conv-6-title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .conv-5,.conv-6 {
+        width: 50%;
+    }
+    .conv-5-txt, .conv-6-txt{
+        
+        width: 50%;
+    }
+
+    .conv-photo-4{
+        padding-top: 5%;
+    }
+
+    .conv-photo-5{
+        padding-top: 10%;
+    }
+   
+    /* 섹션10끝 */
+
+    .performance h1{
+        padding-top: 25%;
+        font-size: 26px;
+    }
+    .performance h3{
+        font-size: 20px;
+    }
+
+    .performance h4{
+        font-size: 16px;
+        padding-top: 5%;
+    }
+    
+
+    /* 섹션11끝 */
+    .speed h1{
+        font-size: 24px;
+    }
+    .speed-bottom{
+        display: flex;
+    }
+    .speed-bottom h3{
+        font-size: 18px;
+    }
+    /* 섹션12끝 */
+
+    .smart-1 p{
+        font-size: 14px;
+    }
+    .smart-1 h3{
+        font-size: 18px;
+    }
 
     .modal{
         width: 90% !important;
-        margin-top: 200px;
+        
         padding: 0 !important;
     }
     .modal img{
@@ -1106,7 +1505,14 @@ section{
     .modal-content{
         width: 100% !important;
     }
-    
+    .customer{
+        height: 200px;
+        margin-top: 10%;
+    }
+    .ask{
+        height: 200px;
+        margin-top: 10%;
+    }
     
 }
 
@@ -1138,6 +1544,9 @@ section{
     .seat{
         padding-top: 15%;
     }
+    .seat-text-1 h5{
+        padding-top: 5%;
+    }
     .in-photo{
         padding-top: 45%;
     }
@@ -1147,4 +1556,40 @@ section{
     .cal-photo{
         padding-top: 20%;
     }
+
+    .vip h2{
+        padding-top: 10%;
+    }
+    .vip-page{
+        padding-top: 20%;
+    }
+    .convs{
+        padding-top: 20%;
+    }
+    .conv-photo-4{
+        padding-top: 15%;
+    }
+    .conv-5-txt h3, .conv-6-txt h3{
+        font-size: 15px;
+    }
+    .conv-5-txt p{
+        font-size: 12px;
+    }
+    .conv-6-txt p{
+        font-size: 12px;
+    }
+    .performance h1{
+        padding-top: 35%;
+    }
+    .speed h1{
+        font-size: 22px;
+        padding-top: 5%;
+    }
+    .smart-photo{
+        padding-top: 30%;
+    }
+    .hy h1{
+        padding-top: 5%;
+    }
+    
 }
