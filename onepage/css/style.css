@@ -1219,6 +1219,7 @@ body{
         font-size: 10px;
         line-height: 24px;
     }
+    
     .busimg{
         height: 40%;
     }
@@ -1226,9 +1227,12 @@ body{
         width: 71px;
         height: 80px;
     }
+    .buscontent h1{
+        font-size: 26px;
+    }
     .buscontent p{
-        font-size: 15px;
-        line-height: 32px;
+        font-size: 11px;
+        line-height: 24px;
     }
     .trafficbox{
         flex-wrap: wrap;
