@@ -257,13 +257,25 @@ header .intro-text {
 	padding: 100px 0;
 }
 #about h3 {
-	font-size: 22px;
+	font-size: 34px;
 	margin: 0 0 20px 0;
+	font-family: 'Amiri', serif;
+	cursor: pointer;
+}
+
+#about h3:hover{
+	background: linear-gradient(to right, #2a2a2a 0%, #fff 80%);
+	color: #e6e6e6;
+}
+.about-icon{
+	font-size: 20px;
+	padding-left: 10px;
 }
 #about h2 {
 	position: relative;
 	margin-bottom: 15px;
 	padding-bottom: 15px;
+	font-family: 'Amiri', serif;
 }
 #about h2::after {
 	position: absolute;
@@ -297,7 +309,9 @@ header .intro-text {
 }
 #about p {
 	line-height: 24px;
+	font-size: 1.6em;
 	margin: 30px 0;
+	color: black;
 }
 /* Services Section */
 #services {

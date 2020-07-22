@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+
+        출처: https://nowonbun.tistory.com/566 [명월 일지]
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/weather-icons.css">
     <title>Document</title>
@@ -12,7 +15,7 @@
 
     <div id="weather_info">
         <h1 class="city"></h1>
-        <h3 class="time" onload="time()"></h3>
+        <h3 class="time" id="time"></h3>
         <section>
             
             <i class="icon wi"></i>
@@ -58,9 +61,21 @@
             var feels_like = main.feels_like;
             var icon_url = 'http://openweathermap.org/img/w/' + icon;
             var humidity = main.humidity;
-            var time = new Date();
 
-            
+            function time(){
+            var today = new Date();
+            var yy = today.getFullYear();
+            var mm = today.getMonth();
+            var dd = today.getDay();
+            var hh = today.getHours();
+            var mi = today.getMinutes();
+            var ss = today.getSeconds();
+
+            document.getElementById("time").innerHTML = yy + "/" + mm + "/" +  dd + " " + hh + ":" + mi + ":" +  ss;
+
+            }
+            setInterval(time, 1000);
+
 
             // 날씨아이콘 바꾸기 코드
             var nowTimestamp = Math.floor(Date.now() / 1000);
@@ -81,35 +96,40 @@
             $('#weather_info .temp').html(parseInt(temp-273.15)+'&deg;');
             $('#weather_info .feels_like').html('체감온도 ' + parseInt(feels_like-273.15)+'&deg;');
             $('#weather_info .load_img').hide();
-            $('#weather_info .time').html(time.toLocaleString());
             $('#weather_info .humidity').html('습도 ' + parseInt(humidity));
+            // $('#weather_info .time').html = yy + "/" + mm + "/" +  dd + " " + hh + ":" + mi + ":" +  ss;
+
+            
 
             if(wind > 0 && wind < 90){
-                $('#weather_info .wind').html("북동풍");
+                $('#weather_info .wind').html("바람 : 북동풍");
             }else if(wind > 90 && wind < 180 ){
-                $('#weather_info .wind').html("남동풍");
+                $('#weather_info .wind').html("바람 : 남동풍");
             }else if(wind > 180 && wind < 270) {
-                $('#weather_info .wind').html("남서풍");
+                $('#weather_info .wind').html("바람 : 남서풍");
             }else if(wind > 270 && wind < 360){
                 $('#weather_info .wind').html("바람 : 북서풍");
             }else if(wind == 0){
-                $('#weather_info .wind').html("북풍");
+                $('#weather_info .wind').html("바람 : 북풍");
             }else if(wind == 90){
-                $('#weather_info .wind').html("동풍");
+                $('#weather_info .wind').html("바람 : 동풍");
             }else if(wind == 180){
-                $('#weather_info .wind').html("남풍");
+                $('#weather_info .wind').html("바람 : 남풍");
             }else if(wind == 270){
-                $('#weather_info .wind').html("서풍");
+                $('#weather_info .wind').html("바람 : 서풍");
             }else{
                 $('#weather_info .wind').html("바람이 없습니다.");
             }
             
         })
+
+        
     
         .fail(function(){
             alert("loading error");
         });
 
+        
         
     </script>
 </body>
