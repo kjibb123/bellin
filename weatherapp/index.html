@@ -6,7 +6,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
 
-        출처: https://nowonbun.tistory.com/566 [명월 일지]
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/weather-icons.css">
     <title>Document</title>
@@ -31,16 +30,25 @@
                 <p class="temp_max">max</p>
                 <p class="temp_min">min</p>
             </aside>
-
-                <p class="humidity"></p>
-                <p class="wind" id="wind">풍향</p>
+            <div class="hu_wind_info">
+                <div class="hum">
+                    <img src="humi.png" alt="">
+                    <p class="humidity"></p>
+                </div>
+                <div class="win">
+                    <img src="wind.png" alt="">
+                    <p class="wind" id="wind">풍향</p>
+                </div>
+            </div>
+                
+                
             
         </section>
         <img class="load_img" src="" width="50">
     </div>
 
     <script>
-        var url='http://api.openweathermap.org/data/2.5/weather?q=incheon&appid=2c1da9cd69b77003d7e4d5cfe6ff00ff';
+        var url='http://api.openweathermap.org/data/2.5/weather?q=incheon,KR&appid=2c1da9cd69b77003d7e4d5cfe6ff00ff';
 
        
         $('weather_info .load_img').show();
@@ -48,6 +56,7 @@
         $.getJSON(url, function(data) {
             var sys = data.sys;                 // 국가명, 일출/일몰
             var wind = data.wind.deg;           // 풍향
+            var rain = data.rain;
             var city = data.name;               // 도시명
             var weather = data.weather;         // 날씨 객체
             var main = data.main;               // 온도 기압 관련 객체
@@ -82,7 +91,7 @@
 
 
             var weatherClass = 'wi wi-owm-';
-                weatherClass += (nowTimestamp >= data.sunrise && nowTimestamp <= data.sunset ? 'day' : 'night');
+                weatherClass += (nowTimestamp >= data.sunrise && nowTimestamp <= data.sunset ? 'night' : 'day');
                 weatherClass += ('-' + weather[0].id);
 
             $("#weather_info .icon").addClass(weatherClass);
@@ -98,7 +107,6 @@
             $('#weather_info .load_img').hide();
             $('#weather_info .humidity').html('습도 ' + parseInt(humidity));
             // $('#weather_info .time').html = yy + "/" + mm + "/" +  dd + " " + hh + ":" + mi + ":" +  ss;
-
             
 
             if(wind > 0 && wind < 90){

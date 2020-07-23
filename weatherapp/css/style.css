@@ -10,7 +10,7 @@ body{
     width: 100%;
     height: 100vh;
     color:white;
-    background: linear-gradient(#110a70, #020b1d )
+    background: linear-gradient(#4b7ad1, #020b1d )
 
 }
 h1{
@@ -94,4 +94,30 @@ aside_2 > p{
 }
 .wind{
     font-size: 1.8em;
+    padding-top: 20px;
+}
+
+.wi-humidity{
+    font-size: 30px;
+    
+}
+.wi-strong-wind{
+    font-size: 30px;
+   
+}
+
+.hu_wind_info{
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 30px;
+    justify-content: space-evenly;
+}
+.hum img{
+    width: 40px;
+}
+
+.win img{
+    width: 60px;
 }
