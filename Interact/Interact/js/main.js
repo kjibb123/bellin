@@ -44,3 +44,15 @@ function main() {
 
 }
 main();
+
+$(function(){
+  $('.company-photo > img:gt(0)').hide();
+      setInterval(function(){
+  $('.company-photo > img:first')
+      .fadeOut(1000)
+      .next()
+      .fadeIn(1000)
+      .end()
+      .appendTo('.company-photo');
+},2000);
+});
