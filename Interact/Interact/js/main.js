@@ -58,3 +58,46 @@ $(function(){
 });
 
 
+$(function(){
+  $('#blue').click(function(){
+    $('.color_1').hide();
+    $('.color_3').hide();
+    $('.color_4').hide();
+    $('.color_2').show();
+    $('#green-1').hide();
+    $('#red-1').hide();
+    $('#black-1').hide();
+    $('#blue-1').show();
+
+  });
+  $('#green').click(function(){
+    $('.color_2').hide();
+    $('.color_3').hide();
+    $('.color_4').hide();
+    $('.color_1').show();
+    $('#green-1').show();
+    $('#red-1').hide();
+    $('#black-1').hide();
+    $('#blue-1').hide();
+  });
+  $('#red').click(function(){
+    $('.color_1').hide();
+    $('.color_2').hide();
+    $('.color_4').hide();
+    $('.color_3').show();
+    $('#green-1').hide();
+    $('#red-1').show();
+    $('#black-1').hide();
+    $('#blue-1').hide();
+  });
+  $('#black').click(function(){
+    $('.color_1').hide();
+    $('.color_2').hide();
+    $('.color_3').hide();
+    $('.color_4').show();
+    $('#green-1').hide();
+    $('#red-1').hide();
+    $('#black-1').show();
+    $('#blue-1').hide();
+  });
+});

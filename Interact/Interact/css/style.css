@@ -156,6 +156,7 @@ hr {
 }
 .section-title p {
 	font-size: 18px;
+	color: black;
 }
 .btn-custom {
 	font-family: 'Raleway', sans-serif;
@@ -402,7 +403,9 @@ header .intro-text {
 
 /* color Section */
 
-
+#color{
+	position: relative;
+}
 #color img{
 	width: 100%;
 }
@@ -433,9 +436,22 @@ header .intro-text {
 	cursor: pointer;
 }
 
-.color_2{
+.color_2, .color_3, .color_4{
+	display: none;	
+}
+#blue-1, #red-1, #black-1{
 	display: none;
 }
+
+.color-button{
+	display: block;
+}
+.color-button h1{
+	color: white;
+	font-weight: bold;
+	margin-left: 20px;
+}
+
 #color .col-md-6{
 	padding: 0 !important;
 }
@@ -449,6 +465,15 @@ header .intro-text {
 #red{
 	background-color: #e94444;
 }
+#black{
+	background-color: #111;
+}
+
+.color-button h3{
+	margin-left: 20px;
+	color: white;
+}
+
 
 /* Portfolio Section */
 #portfolio {
@@ -468,8 +493,8 @@ header .intro-text {
 	text-align: center;
 	margin: 0 auto;
 	color: #111;
-	background: linear-gradient(to right, rgba(99,114,255,0.8) 0%, rgba(92,169,251,0.8) 100%);
-	padding: 30% 0 0 0;
+	background: linear-gradient(to right, rgba(80, 80, 80, 0.8) 0%, rgba(8, 8, 8, 0.8) 100%);
+	padding: 35% 0 0 0;
 	height: 100%;
 	width: 100%;
 	opacity: 0;
@@ -525,14 +550,20 @@ header .intro-text {
 }
 .testimonial-content p {
 	margin-bottom: 0;
-	font-size: 14px;
+	font-size: 18px;
 	font-style: italic;
+	padding: 0 40px;
 }
 .testimonial-meta {
 	margin-top: 10px;
-	font-size: 15px;
+	font-size: 16px;
 	font-weight: 600;
 	color: #666;
+	padding-left: 40px;
+}
+
+.tes-1{
+	padding-top: 70px;
 }
 /* Team Section */
 #team {
@@ -741,5 +772,10 @@ color: #777;
 	.co-1 h3{
 		font-size: 18px;
 
+	}
+	.color-button{
+		top: 15%;
+		left: 15%;
+		
 	}
 }
