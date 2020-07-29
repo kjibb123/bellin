@@ -48,7 +48,7 @@
     </div>
 
     <script>
-        var url='http://api.openweathermap.org/data/2.5/weather?q=incheon,KR&appid=2c1da9cd69b77003d7e4d5cfe6ff00ff';
+        var url='https://api.openweathermap.org/data/2.5/weather?q=incheon,KR&appid=2c1da9cd69b77003d7e4d5cfe6ff00ff';
 
        
         $('weather_info .load_img').show();
@@ -68,7 +68,7 @@
             var temp_min = main.temp_min;       // 최저 온도
             var temp_max = main.temp_max;       // 최고 온도
             var feels_like = main.feels_like;
-            var icon_url = 'http://openweathermap.org/img/w/' + icon;
+            var icon_url = 'https://openweathermap.org/img/w/' + icon;
             var humidity = main.humidity;
 
             function time(){
