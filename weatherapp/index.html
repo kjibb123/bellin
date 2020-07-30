@@ -85,7 +85,7 @@
             }
             setInterval(time, 1000);
 
-
+            
             // 날씨아이콘 바꾸기 코드
             var nowTimestamp = Math.floor(Date.now() / 1000);
 
@@ -128,10 +128,10 @@
             }else{
                 $('#weather_info .wind').html("바람이 없습니다.");
             }
+
             
         })
 
-        
     
         .fail(function(){
             alert("loading error");
