@@ -89,12 +89,12 @@ aside_2 > p{
 }
 
 .humidity{
-    font-size: 1.8em;
+    font-size: 20px;
     padding-top: 20px;
 }
 .wind{
-    font-size: 1.8em;
-    padding-top: 20px;
+    font-size: 20px;
+    padding-top: 32px;
 }
 
 .wi-humidity{
@@ -120,4 +120,5 @@ aside_2 > p{
 
 .win img{
     width: 60px;
+    padding-top: 5px;
 }
