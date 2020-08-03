@@ -196,26 +196,25 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .intro {
 	display: table;
 	width: 100%;
-	height: 980px;
+	height: 780px;
 	padding: 0;
 	
 }
 .intro .overlay {
-	height: 980px;
+	height: 780px;
 	
 }
-.intro h1 {
-	font-family: 'Amiri', serif;
-	color: #e6e6e6;
-	font-size: 82px;
+.intro h2 {
+	font-family: 'Song Myung', serif;
+	color: #5d5d5d;
+	font-size: 40px;
 	font-weight: 700;
-	text-transform: uppercase;
 	margin-top: 0;
 	margin-bottom: 10px;
 }
-.intro h1 span {
+.intro h2 span {
 	font-weight: 800;
-	color: #5ca9fb;
+	color: #2a2a2a;
 }
 .intro p {
 	color: #fff;
@@ -226,338 +225,78 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin-bottom: 60px;
 }
 header .intro-text {
-	padding-top: 440px;
+	padding-top: 340px;
 	padding-bottom: 0;
 	text-align: center;
 }
-/* Features Section */
-#features {
-	padding: 100px 0;
-	background: #f6f6f6;
-}
-#features i.fa {
-	font-size: 38px;
-	margin-bottom: 20px;
-	transition: all 0.5s;
-	color: #fff;
-	width: 100px;
-	height: 100px;
-	padding: 30px 0;
-	border-radius: 50%;
-	background: #2a2a2a;
-	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
-}
-/* About Section */
-#about {
-	padding: 100px 0;
-}
-#about h3 {
-	font-size: 34px;
-	margin: 0 0 20px 0;
-	font-family: 'Amiri', serif;
-	cursor: pointer;
-}
 
-#about h3:hover{
-	background: linear-gradient(to right, #2a2a2a 0%, #fff 80%);
-	color: #e6e6e6;
-}
-.about-icon{
-	font-size: 20px;
-	padding-left: 10px;
-}
-#about h2 {
-	position: relative;
-	margin-bottom: 15px;
-	padding-bottom: 15px;
-	font-family: 'Amiri', serif;
-}
-#about h2::after {
-	position: absolute;
-	content: "";
-	background: linear-gradient(to right, #e6e6e6 0%, #2a2a2a 100%);
-	height: 4px;
-	width: 60px;
-	bottom: 0;
-	left: 0;
-}
-#about .about-text li {
-	margin-bottom: 6px;
-	margin-left: 6px;
-	list-style: none;
-	padding: 0;
-}
-#about .about-text li:before {
-	content: '\f00c';
-	font-family: 'FontAwesome';
-	color: #5ca9fb;
-	font-size: 11px;
-	font-weight: 300;
-	padding-right: 8px;
-}
-#about img {
-	width: 520px;
-	margin-top: 10px;
-	background: #fff;
-	border-right: 0;
-	box-shadow: 0 0 50px rgba(0,0,0,0.06);
-}
-#about p {
-	line-height: 24px;
-	font-size: 1.6em;
-	margin: 30px 0;
-	color: black;
-}
-
-/* ourcompany Section */
-
-.company{
-	padding-left: 0 !important;
-}
-
-.company img{
+/* storyphoto Section */
+.hand-photo{
 	width: 100%;
-	height: 100vh;
-	
-}
-.company-bg{
-	background-color: #2a2a2a;
-	height: 100vh;
-	width: 50%;
-}
-
-.company-photo{
-	position: relative;
-}
-
-.company-photo img{
-	position: absolute;
-}
-.co-1{
-	text-align: center;
-}
-.co-1 h1{
-	margin-top: 360px;
-	font-size: 48px;
-	color: white;
-}
-.co-1 h3{
-	padding-top: 10px;
-	font-size: 24px;
-	
-	color: white;
-	font-family: 'Song Myung', serif;
-	font-weight: 200;
-}
-
-
-/* Services Section */
-#services {
-	padding: 100px 0;
-	background: linear-gradient(to right, #ffffff 0%, #dbdbdb 100%);
-	color: #111;
-}
-#services .service-desc {
-	margin: 10px 10px 20px;
-}
-#services h2 {
-	color: #111;
-}
-#services .section-title h2::after {
-	position: absolute;
-	content: "";
-	background: linear-gradient(to right, #e6e6e6 0%, #2a2a2a 100%);
-	height: 4px;
-	width: 60px;
-	bottom: 0;
-	margin-left: -30px;
-	left: 50%;
-}
-#services i.fa {
-	font-size: 42px;
-	width: 120px;
-	height: 120px;
-	padding: 40px 0;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-	border-radius: 50%;
-	color: #fff;
-	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
-}
-#services h3 {
-	font-weight: 500;
-	padding: 5px 0;
-	color: #111;
-}
-#services p {
-	color: #111;
-}
-#services .service-desc {
-	margin-bottom: 40px;
-}
-
-/* color Section */
-
-#color{
-	position: relative;
-}
-#color img{
-	width: 100%;
-}
-.color{
-	position: relative;
-}
-.color-button{
-	position: absolute;
-	top: 20%;
-	left: 30%;
-	z-index: 5;
-}
-.color-click{
+	height: 700px;
+	background: url('../img/hand-wash.jpg') rgba(8, 8, 8, 0.8);
+	background-size: cover;
+	background-position: 50%;
+	padding-left: 0;
+	padding-right: 0;
 	display: flex;
+	justify-content: flex-end;
+	align-items: center;
 }
-.color-click > li{
-    list-style: none;
-    border: 1px solid #ccc;
-    border-radius: 50px;
-	margin: 10px 15px;
-	width: 50px;
+#storyphoto h2{
+	font-size: 26px;
+	color: #f6f6f6;
+	font-family: 'Song Myung', serif;
+	font-weight: 400;
+	text-align: left;
 }
-
-.color-click a{
-    display: block;
-    width: 50px;
-	height: 50px;
-	cursor: pointer;
+#storyphoto p{
+	font-size: 18px;
+	color: #f6f6f6;
+	font-weight: lighter;
+	text-align: left;
 }
-
-.color_2, .color_3, .color_4{
-	display: none;	
+.hand-text{
+	padding-right: 50px;
 }
-#blue-1, #red-1, #black-1{
-	display: none;
+/* online-store Section */
+.online-text{
+	text-align: left;
+	padding: 300px 0;
 }
-
-.color-button{
-	display: block;
+.online-text h2{
+	font-family: 'Song Myung', serif;
+	font-size: 40px;
 }
-.color-button h1{
-	color: white;
-	font-weight: bold;
-	margin-left: 20px;
+.online-text p{
+	font-size: 26px;
 }
-
-#color .col-md-6{
-	padding: 0 !important;
+#online-store{
+	padding-top: 100px;
 }
-
-#green{
-	background-color: #9dc8bc;
+.online-picture{
+	padding: 150px 0;
 }
-#blue{
-	background-color: #6188be;
-}
-#red{
-	background-color: #e94444;
-}
-#black{
-	background-color: #111;
+.online-picture img{
+	width: 80%;
 }
 
-.color-button h3{
-	margin-left: 20px;
-	color: white;
+/* delivery Section */
+.delivery-picture img{
+	width: 90%;
 }
-
-
-/* Portfolio Section */
-#portfolio {
+.delivery-text{
 	padding: 100px 0;
 }
-.portfolio-item {
-	margin: 1px -15px 0 -14px;
-	padding: 0;
+.delivery-text h2{
+	font-size: 40px;
+	font-family: 'Song Myung', serif;
+	padding-left: 150px;
 }
-.portfolio-item .hover-bg {
-	overflow: hidden;
-	position: relative;
-	margin: 0;
-}
-.hover-bg .hover-text {
-	position: absolute;
-	text-align: center;
-	margin: 0 auto;
-	color: #111;
-	background: linear-gradient(to right, rgba(80, 80, 80, 0.8) 0%, rgba(8, 8, 8, 0.8) 100%);
-	padding: 35% 0 0 0;
-	height: 100%;
-	width: 100%;
-	opacity: 0;
-	transition: all 0.5s;
-}
-.hover-bg .hover-text>h4 {
-	opacity: 0;
-	color: #fff;
-	-webkit-transform: translateY(100%);
-	transform: translateY(100%);
-	transition: all 0.3s;
-	font-size: 18px;
-	letter-spacing: 1px;
-	font-weight: 500;
-	text-transform: uppercase;
-}
-.hover-bg:hover .hover-text>h4 {
-	opacity: 1;
-	-webkit-backface-visibility: hidden;
-	-webkit-transform: translateY(0);
-	transform: translateY(0);
-}
-.hover-bg:hover .hover-text {
-	opacity: 1;
-}
-/* Testimonials Section */
-#testimonials {
-	padding: 100px 0;
-	background: #f6f6f6;
-}
-#testimonials i {
-	color: #e6e6e6;
-	font-size: 32px;
-	margin-bottom: 20px;
-}
-.testimonial {
-	position: relative;
-	padding: 20px;
-}
-.testimonial-image {
-	float: left;
-	margin-right: 15px;
-}
-.testimonial-image, .testimonial-image img {
-	display: block;
-	width: 64px;
-	height: 64px;
-	border-radius: 50%;
-}
-.testimonial-content {
-	position: relative;
-	overflow: hidden;
-}
-.testimonial-content p {
-	margin-bottom: 0;
-	font-size: 18px;
-	font-style: italic;
-	padding: 0 40px;
-}
-.testimonial-meta {
-	margin-top: 10px;
-	font-size: 16px;
-	font-weight: 600;
-	color: #666;
-	padding-left: 40px;
-}
-
-.tes-1{
-	padding-top: 70px;
+.delivery-text p{
+	font-size: 26px;
+	padding-left: 150px;
+	
 }
 /* Team Section */
 #team {
@@ -708,9 +447,9 @@ color: #777;
 	color: #608dfd;
 	background: #fff;
 }
-/* Footer Section*/
+/* footer Section */
 #footer {
-	background: #f6f6f6;
+	background: #fff;
 	padding: 30px 0;
 }
 #footer p {
@@ -723,58 +462,56 @@ color: #777;
 #footer a:hover {
 	border-bottom: 2px solid #608dfd;
 }
-@media (max-width: 992px) {
-	.company .row{
-		display: block;
+@media (max-width: 996px) {
+	.online-text{
+		text-align: left;
+		padding: 100px 0;
 	}
-	.company-bg{
-		width: 100%;
-		height: 400px;
-		background-color: inherit;
+	.online-picture{
+		padding: 100px 0;
 	}
-	.co-1 h1{
-		color: black;
-	}
-	.co-1 h3{
-		color: black;
+	.online-picture img{
+		width: 50%;
 	}
 }
 @media (max-width: 768px) {
-	#about img {
-		margin: 50px 0;
+	.intro h2{
+		font-size: 26px;
 	}
-	.company{
-		overflow: hidden;
+	.hand-photo{
+		justify-content: center;
 	}
-	.company-photo{
-		width: 100%;
-		left: 3.5%;
+	.online-text{
+		text-align: left;
+		padding: 50px 0;
 	}
-	.company-photo img{
-		width: 90%;
-		height: 400px;
+	.online-picture{
+		padding: 50px 0;
 	}
+	.online-picture img{
+		width: 50%;
+	}
+}
 
-	.company-bg{
-		width: 100%;
-		height: 300px;
+@media (max-width:500px){
+	.hand-text{
+		padding-left: 10px;
+		padding-right: 0;
 	}
-	.company .row{
-		display: block;
+	.online-text h2{
+		font-family: 'Song Myung', serif;
+		font-size: 30px;
 	}
-	
-	.co-1 h1{
-		font-size: 32px;
-		margin-top: 400px;
-		padding-top: 70px;
+	.online-text p{
+		font-size: 20px;
 	}
-	.co-1 h3{
-		font-size: 18px;
-
+	.delivery-text h2{
+		font-family: 'Song Myung', serif;
+		font-size: 30px;
+		padding-left: 0;
 	}
-	.color-button{
-		top: 15%;
-		left: 15%;
-		
+	.delivery-text p{
+		font-size: 20px;
+		padding-left: 0;
 	}
 }
