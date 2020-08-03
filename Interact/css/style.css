@@ -462,6 +462,8 @@ header .intro-text {
 	padding: 0 !important;
 }
 
+
+
 #green{
 	background-color: #9dc8bc;
 }
@@ -788,5 +790,13 @@ color: #777;
 		top: 15%;
 		left: 15%;
 		
+	}
+}
+
+
+@media(max-width:767px){
+	.display-flex{
+		display: flex !important;
+		flex-direction: column-reverse !important;	
 	}
 }

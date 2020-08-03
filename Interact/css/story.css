@@ -515,3 +515,10 @@ color: #777;
 		padding-left: 0;
 	}
 }
+
+@media(max-width:767px){
+	.display-flex{
+		display: flex;
+		flex-direction: column-reverse;	
+	}
+}
