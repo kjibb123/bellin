@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    
+</head>
+<body>
+    <div id="app">
+        <!-- 객체의 속성 출력하기 -->
+        <p>{{ message.value }}</p>
+        <!-- 문자열의 길이 출력하기 -->
+        <p>{{ message.value.length }}</p>
+        <!-- 리스트 내부의 요소 출력하기 -->
+        <p>{{ list[2] }}</p>
+        <!-- 속성을 조합해서 사용하기 -->
+        <p>{{ list[num] }}</p>
+    </div>
+
+    <script>
+        new Vue({
+            el: '#app',
+            data: {
+                //객체 데이터
+                message: {
+                value: 'Hello Vue.js!'
+                },
+                //배열 데이터
+                list:['사과', '바나나', '딸기'],
+                //4번을 위한 요소
+                num:1
+            }
+        })
+    </script>
+</body>
+</html>

@@ -793,10 +793,3 @@ color: #777;
 	}
 }
 
-
-@media(max-width:767px){
-	.display-flex{
-		display: flex !important;
-		flex-direction: column-reverse !important;	
-	}
-}
