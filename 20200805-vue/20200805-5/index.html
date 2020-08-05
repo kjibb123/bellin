@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <style>
+
+    </style>
+</head>
+<body>
+   <div id="app">
+       <h1 v-if="visible">
+           <!-- 아주 복잡하고 오래 걸리는 처리 -->
+       </h1>
+       <h1 v-show="visible">
+           <!-- 아주 복잡하고 오래 걸리는 처리~ -->
+       </h1>
+   </div>
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+                visible:false
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <style>
+
+    </style>
+</head>
+<body>
+   <div id="app">
+           <!-- count 속성 출력하기 -->
+           
+           <!-- 이 버튼을 클릭하면 increment 메서드가 호출됩니다 . -->
+        <button v-on:click="increment">{{count}}</button>
+        <button v-on:click="increment1">{{count}}</button>
+        <button v-on:click="increment2">{{count}}</button>
+   </div>
+   
+    <script>
+        new Vue({
+            el: '#app',
+            data:{
+                count: 0,
+            },
+            methods: {
+                // 버튼을 클릭할 때의 핸들러
+                increment: function(){
+                    this.count += 1 // 다시 할당하는 처리만 합니다.
+                },
+                increment1: function(){
+                    this.count +=1
+                },
+                increment2: function(){
+                    this.count +=1
+                },
+            }
+        })
+    </script>
+</body>
+</html>
