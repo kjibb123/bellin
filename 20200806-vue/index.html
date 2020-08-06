@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <h1 v-if="visible">나는 보입니다.</h1>
+        <button @click="visible = !visible">버튼</button>
+        <hr />
+        <button @click="click">버튼</button>
+        <hr />
+        <button @dblclick="dblclick">버튼</button>
+        <button @click="add()">버튼</button>
+        <button @click="remove()">버튼</button>
+        <ul>
+            <li v-for="n in numbers">{{ n }}</li>
+        </ul>
+        <input type="text" v-model="animal" @keyup.enter="capture()">
+        <ul>
+            <li v-for="a in animals">{{ a }}</li>
+        </ul>
+    </div>
+    <!-- 개발버전, 도움되는 콘솔 경고를 포함. -->
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+                visible: true,
+                numbers: [1, 2, 3, 4, 5],
+                animal: null,
+                animals: ['lion', 'tiger', 'dog', 'cat', 'eagle'] 
+            },
+
+
+            methods: {
+                click: function(){
+                    alert('버튼을 눌렀습니다')
+                },
+                dblclick: function(){
+                    alert('버튼을 두번 눌렀습니다')
+                },
+
+                add: function() {
+                    var lastNum = this.numbers[this.numbers.length - 1];
+                    lastNum += 1;
+                    this.numbers.push(lastNum);
+                },
+
+                remove : function() {
+                    var lastNum = this.numbers[this.numbers.length - 1];
+                    lastNum += 1;
+                    this.numbers.pop(lastNum);
+                },
+
+                capture: function() {
+                    if(this.animal){
+                        this.animals.push(this.animal);
+                        this.animal = null;
+                    }
+                }
+            }
+        })
+    </script>
+</body>
+</html>
