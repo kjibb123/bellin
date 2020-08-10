@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 
 body, html {
-	font-family:'Noto Sans KR', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: #777;
@@ -157,7 +157,17 @@ hr {
 	font-size: 18px;
 	color: black;
 }
+/* notice */
+#notice{
+	padding-top: 150px;
+}
 
+.searchbox{
+	padding-bottom: 40px;
+}
+tbody{
+	cursor: pointer;
+}
 
 a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
 	outline: none;

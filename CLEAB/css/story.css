@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 body, html {
-	font-family: 'Song Myung', serif;
+	font-family: 'Raleway', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: #777;
@@ -140,7 +140,7 @@ hr {
 	margin-top: 10px;
 	margin-bottom: 15px;
 	padding-bottom: 15px;
-	font-family: 'Amiri', serif;
+	font-family: 'Raleway', sans-serif;
 }
 .section-title h2::after {
 	position: absolute;
@@ -174,7 +174,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	
 }
 .intro h2 {
-	font-family: 'Song Myung', serif;
+	font-family: 'Raleway', sans-serif;
 	color: #5d5d5d;
 	font-size: 40px;
 	font-weight: 700;
@@ -215,7 +215,7 @@ header .intro-text {
 #storyphoto h2{
 	font-size: 26px;
 	color: #f6f6f6;
-	font-family: 'Song Myung', serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 	text-align: left;
 }
@@ -234,7 +234,7 @@ header .intro-text {
 	padding: 300px 0;
 }
 .online-text h2{
-	font-family: 'Song Myung', serif;
+	
 	font-size: 40px;
 }
 .online-text p{
@@ -259,7 +259,7 @@ header .intro-text {
 }
 .delivery-text h2{
 	font-size: 40px;
-	font-family: 'Song Myung', serif;
+	
 	padding-left: 150px;
 }
 .delivery-text p{
@@ -303,6 +303,9 @@ header .intro-text {
 #team .thumbnail .caption {
 	padding: 10px 0 0 0;
 	color: #888;
+}
+.section-title h2{
+	font-family: 'Amiri', serif;
 }
 
 /* footer Section */
