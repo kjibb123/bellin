@@ -1,0 +1,39 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+body{
+    background: linear-gradient(#090d16, #233444);
+    background-repeat: no-repeat;
+    height: 6560px;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+}
+header img{
+    width: 5%;
+}
+.subtitle{
+    padding-top: 50px;
+}
+.subtitle h2{
+    color: white;
+    font-family: 'Nanum Gothic';
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.title img{
+    padding-left: 50px;
+}
+
+.video{
+    margin-top: 100px;
+}
+
+.ytp-chrome-top{
+    opacity: 0 !important;
+}
+
+
