@@ -63,7 +63,7 @@ header img{
     padding-top: 100px;
 }
 .box-0{
-    padding-top: 50px;
+    padding-top: 150px;
     display: flex;
     justify-content: space-around;
 }
@@ -138,6 +138,7 @@ header img{
     color: white;
     font-size: 36px;
     letter-spacing: 5px;
+    line-height: 40px;
 }
 
 .answer{
@@ -167,6 +168,50 @@ header img{
     padding-top: 50px;
     color: white;
     font-size: 46px;
+}
+
+.event-photo{
+    padding-top: 100px;
+}
+.event-photo img{
+    width: 80%;
+}
+
+.event-end{
+    padding-top: 150px;
+}
+
+.gift{
+    background-color: white;
+    display: flex;
+    padding: 50px 50px;
+}
+
+.gift-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.gift-1 h2{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.gift-2 h2{
+    padding-left: 100px;
+    font-size: 40px;
+    line-height: 67.5px;
+}
+.gift-3{
+    width: 40%;
+    padding-left: 200px;
+    display: flex;
+}
+
+.gift-3 img{
+    width: 80%;
+    height: 100%;
 }
 
 @media (max-width:1284px){
@@ -225,6 +270,7 @@ header img{
         font-size: 20px;
         line-height: 30px;
     }
+    
     .event-1 h1, .event-2 h1{
         font-size: 50px;
     }
@@ -234,6 +280,9 @@ header img{
     .box-1, .box-2, .box-3{
         width: 300px;
         height: 100px;
+    }
+    .box-0{
+        padding-top: 100px;
     }
     .box-0 p{
         color: white;
@@ -250,7 +299,7 @@ header img{
     }
     .event-m h2{
         color: white;
-        font-size: 26px;
+        font-size: 22px;
     }
     .event-m h1{
         font-size: 30px;
