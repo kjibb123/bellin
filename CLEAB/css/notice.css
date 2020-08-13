@@ -157,6 +157,12 @@ hr {
 	font-size: 18px;
 	color: black;
 }
+
+a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
+	outline: none;
+	outline-offset: none;
+}
+
 /* notice */
 #notice{
 	padding-top: 150px;
@@ -165,14 +171,8 @@ hr {
 .searchbox{
 	padding-bottom: 40px;
 }
-tbody{
-	cursor: pointer;
-}
 
-a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
-	outline: none;
-	outline-offset: none;
-}
+
 
 /* footer Section */
 #footer {
