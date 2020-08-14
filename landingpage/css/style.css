@@ -225,7 +225,7 @@ header img{
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 1000px;
+    height: 1100px;
 }
 .warning-text{
     padding-top: 100px;
@@ -391,6 +391,12 @@ header img{
         font-size: 22px;
     }
     .event-m h1{
+        font-size: 28px;
+    }
+    .gift-1 h2{
+        font-size: 26px;
+    }
+    .gift-1 h3{
         font-size: 28px;
     }
 }
