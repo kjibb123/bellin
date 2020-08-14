@@ -4,7 +4,7 @@ body{
     font-family: 'Nanum Gothic';
     background: linear-gradient(#090d16, #233444);
     background-repeat: no-repeat;
-    height: 5000px;
+    height: 6000px;
     position: relative;
 }
 
@@ -225,7 +225,7 @@ header img{
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: 1000px;
 }
 .warning-text{
     padding-top: 100px;
