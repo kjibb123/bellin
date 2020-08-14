@@ -228,3 +228,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 #footer a:hover {
 	border-bottom: 2px solid #608dfd;
 }
+
+@media(max-width:500px){
+	.header-photo {
+		display: none;
+	}
+}

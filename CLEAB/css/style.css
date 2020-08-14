@@ -787,4 +787,15 @@ color: #777;
 		
 	}
 }
+@media (max-width:500px){
+	.intro h1{
+		font-size : 70px;
+	}
+	.color-button {
+		left: 5%;
+	}
+	.co-1 h1 {
+		font-size: 30px;
+	}
+}
 

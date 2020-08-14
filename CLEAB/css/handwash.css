@@ -270,4 +270,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	.list-on h3{
 		padding-top: 20px;
 	}
+	#handwash {
+		padding: 150px 0;
+	}
 }

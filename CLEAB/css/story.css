@@ -397,6 +397,21 @@ header .intro-text {
 	.photo-title h1{
 		font-size: 30px;
 	}
+	.photo-title {
+		padding-top: 100px;
+	}
+	.intro h2 {
+		font-size: 23px;
+	}
+	#storyphoto h2 {
+		font-size: 23px;
+	}
+	#storyphoto p {
+		font-size: 16px;
+	}
+	#team {
+		padding: 100px 0;
+	}
 }
 
 
