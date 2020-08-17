@@ -416,7 +416,7 @@ header .intro-text {
 .color-button{
 	position: absolute;
 	top: 20%;
-	left: 30%;
+	left: 15%;
 	z-index: 5;
 }
 .color-click{
@@ -732,7 +732,12 @@ color: #777;
 #footer a:hover {
 	border-bottom: 2px solid #608dfd;
 }
-@media (max-width: 992px) {
+
+.nivo-lightbox-close{
+	top: 10% !important;
+}
+
+@media (max-width: 991px) {
 	.company .row{
 		display: block;
 	}
@@ -746,6 +751,9 @@ color: #777;
 	}
 	.co-1 h3{
 		color: black;
+	}
+	.section-title {
+		margin-top: 120px;
 	}
 }
 @media (max-width: 768px) {
@@ -786,6 +794,9 @@ color: #777;
 		left: 15%;
 		
 	}
+	.section-title {
+		margin-top: 0;
+	}
 }
 @media (max-width:500px){
 	.intro h1{
@@ -798,4 +809,5 @@ color: #777;
 		font-size: 30px;
 	}
 }
+
 
