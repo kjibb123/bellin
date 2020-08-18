@@ -101,3 +101,9 @@ $(function(){
     $('#blue-1').hide();
   });
 });
+
+$(function(){
+  $('.buynow').click(function(){
+    $(location).attr("href", "buying.html");
+  });
+});

@@ -83,23 +83,23 @@
             <div class="row">
             <div class="col-sm-6 buy-address text-left">
                 <h3>Billing Address</h3>
-                <label for="fname"><i class="fa fa-user"></i> Full Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
-                <label for="email"><i class="fa fa-envelope"></i> Email</label>
-                <input type="text" id="email" name="email" placeholder="john@example.com">
-                <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
-                <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
-                <label for="city"><i class="fa fa-institution"></i> City</label>
-                <input type="text" id="city" name="city" placeholder="New York">
+                <label for="fname"><i class="fa fa-user"></i> 이름</label>
+                <input type="text" id="fname" name="firstname" placeholder="김종인">
+                <label for="email"><i class="fa fa-envelope"></i> 이메일</label>
+                <input type="text" id="email" name="email" placeholder="jong@example.com">
+                <label for="adr"><i class="fa fa-address-card-o"></i> 도로명</label>
+                <input type="text" id="adr" name="address" placeholder="검단로 851,">
+                <label for="city"><i class="fa fa-institution"></i> 구/군</label>
+                <input type="text" id="city" name="city" placeholder="서구">
 
                 <div class="row">
                 <div class="col-sm-3">
-                    <label for="state">State</label>
-                    <input type="text" id="state" name="state" placeholder="NY">
+                    <label for="state">시</label>
+                    <input type="text" id="state" name="state" placeholder="인천">
                 </div>
                 <div class="col-sm-3">
-                    <label for="zip">Zip</label>
-                    <input type="text" id="zip" name="zip" placeholder="10001">
+                    <label for="zip">우편번호</label>
+                    <input type="text" id="zip" name="zip" placeholder="200-204">
                 </div>
                 </div>
             </div>
@@ -112,20 +112,23 @@
                 <i class="fa fa-cc-mastercard" style="color:red;"></i>
                 </div>
                 <label for="cname">Name on Card</label>
-                <input type="text" id="cname" name="cardname" placeholder="John More Doe">
-                <label for="ccnum">Credit card number</label>
+                <input type="text" id="cname" name="cardname" placeholder="KIM JONG IN">
+                <label for="ccnum">카드번호</label>
                 <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
-                <label for="expmonth">Exp Month</label>
-                <input type="text" id="expmonth" name="expmonth" placeholder="September">
                 <div class="row">
                 <div class="col-sm-3">
-                    <label for="expyear">Exp Year</label>
+                    <label for="expmonth">월</label>
+                    <input type="text" id="expmonth" name="expmonth" placeholder="September">
+                </div>
+                <div class="col-sm-3">
+                    <label for="expyear">년</label>
                     <input type="text" id="expyear" name="expyear" placeholder="2018">
                 </div>
                 <div class="col-sm-3">
                     <label for="cvv">CVV</label>
                     <input type="text" id="cvv" name="cvv" placeholder="352">
                 </div>
+              
                 </div>
             </div>
             
@@ -138,7 +141,7 @@
     </div>
     <div class="row buy-btn">
         <div class="col-sm-5">
-            <div class="buy-now">
+            <div class="buy-now buy-1">
                 <h2>구매하기</h2>
             </div>
         </div>
@@ -146,7 +149,7 @@
 
         </div>
         <div class="col-sm-5">
-            <div class="buy-now" onClick = " location.href='index.html'">
+            <div class="buy-now" onClick = " location.href='items.html'">
                 <h2>취소하기</h2>
             </div>
         </div>
@@ -165,8 +168,9 @@
 <script type="text/javascript" src="js/nivo-lightbox.js"></script> 
 <script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
 <script type="text/javascript" src="js/contact_me.js"></script> 
-<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/buying.js"></script>
 <script src="js/swiper.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
   AOS.init();
