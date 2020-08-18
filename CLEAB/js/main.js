@@ -106,4 +106,8 @@ $(function(){
   $('.buynow').click(function(){
     $(location).attr("href", "buying.html");
   });
+  $('.cart').click(function(){
+    $(location).attr("href", "cart.html");
+  });
 });
+
