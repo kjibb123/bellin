@@ -9,3 +9,15 @@ $(function(){
         },3000);
     });
 }); 
+
+$(function(){
+    $('.cancel-1').click(function(){
+        $('.cart-1').css('display','none');
+    });
+    $('.cancel-2').click(function(){
+        $('.cart-2').css('display','none');
+    });
+    $('.cancel-3').click(function(){
+        $('.cart-3').css('display','none');
+    });
+});

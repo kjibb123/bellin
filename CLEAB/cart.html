@@ -74,17 +74,60 @@
       </div>
     </div> 
 
-    <div class="row carts">
-        <div class="col-sm-3 cart-1">
-            <h3>제품 사진</h3>
-        </div>
-        <div class="col-sm-6 cart-2">
-            <h3>제품 이름</h3>
-        </div>
-        <div class="col-sm-3 cart-3">
-            <h3>날짜</h3>
-        </div>
+    <div class="row text-center searchbox">
+      <div class="col-sm-12 search">
+        <form action="/action_page.php">
+          <div class="input-group">
+            <div class="input-group-btn">
+             
+            </div>
+          </div>
+        </form>
+      </div>
     </div>
+
+    <table class="table table-hover text-left">
+      <thead>
+        <tr>
+          <th style="width: 20%;">Item</th>
+          <th style="width: 40%;">name</th>
+          <th style="width: 20%;">date</th>
+          <th style="width: 20%;">buying/delete</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <tr class="cart-1">
+          <td><img src="img/bodywash-1.jpg" alt="바디워시" onClick = " location.href='item_bodywash_black.html'"></td>
+          <td>BodyWash Allure</td>
+          <td>2020-08-06</td>
+          <td>
+              <button type="button" class="btn btn-default" onClick = " location.href='buying.html'">구매하기</button>
+              <button type="button" class="btn btn-danger cancel-1">삭제하기</button>
+          </td>
+        </tr>
+
+        <tr class="cart-2">
+          <td><img src="img/item-6.jpg" alt="바디비타민" onClick = " location.href='item_vitamin_lavender.html'"></td>
+          <td>Body Vitamin Lavender</td>
+          <td>2020-08-06</td>
+          <td>
+            <button type="button" class="btn btn-default" onClick = " location.href='buying.html'">구매하기</button>
+            <button type="button" class="btn btn-danger cancel-2">삭제하기</button>
+          </td>
+        </tr>
+
+        <tr class="cart-3">
+          <td><img src="img/item-lotion.jpg" alt="로션&크림" onClick = " location.href='item_lotion.html'"></td>
+          <td>Lotion & Cream</td>
+          <td>2020-08-05</td>
+          <td>
+            <button type="button" class="btn btn-default" onClick = " location.href='buying.html'">구매하기</button>
+            <button type="button" class="btn btn-danger cancel-3">삭제하기</button>
+        </tr>
+        
+      </tbody>
+    </table>
     
 
     

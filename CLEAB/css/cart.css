@@ -166,17 +166,31 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 #cart{
     padding-top: 150px;
 }
-.carts > div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    background-color: #c5c5c5;
+
+.searchbox{
+	padding-bottom: 40px;
 }
 
-.carts > div > h3{
-    margin: 0;
+
+.table>tbody>tr>td{
+	vertical-align: middle;
+	align-items: center;
+	cursor: pointer;
+	font-size: 18px;
 }
+
+td img{
+	width: 100%;
+}
+
+th{
+	text-align: center;
+}
+
+.text-left{
+	text-align: center;
+}
+
 
 /* footer Section */
 #footer {
@@ -192,4 +206,11 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 #footer a:hover {
 	border-bottom: 2px solid #608dfd;
+}
+
+@media (max-width:767px){
+	.table>tbody>tr>td{
+		
+		font-size: 14px;
+	}
 }
