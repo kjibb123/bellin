@@ -1200,20 +1200,20 @@ body{
         height: 300px;
     }
     .wisdombox h1{
-        font-size: 28px;
+        font-size: 20px;
     }
     .wisdombox p{
         font-size: 12px;
     }
     .letterbox h1{
-        font-size: 28px;
+        font-size: 20px;
     }
     .letterbox p{
         font-size: 12px;
         line-height: 24px;
     }
     .museumbox h1{
-        font-size: 26px;
+        font-size: 20px;
     }
     .museumbox p{
         font-size: 10px;
@@ -1228,7 +1228,7 @@ body{
         height: 80px;
     }
     .buscontent h1{
-        font-size: 26px;
+        font-size: 20px;
     }
     .buscontent p{
         font-size: 11px;
