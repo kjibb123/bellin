@@ -1663,4 +1663,7 @@ section{
     .footer-menu{
         display: none;
     }
+    .ask{
+        margin-top: 0;
+    }
 }
