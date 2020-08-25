@@ -806,10 +806,22 @@ color: #777;
 		left: 5%;
 	}
 	.co-1 h1 {
-		font-size: 30px;
+		font-size: 26px;
+	}
+	.co-1 h3{
+		font-size: 16px;
+	}
+	.company-bg{
+		padding-right: 0;
 	}
 	.more-btn{
 		margin-top: 180px;
+	}
+	.section-title p{
+		font-size: 17px;
+	}
+	#about p{
+		font-size: 1.3em;
 	}
 }
 
