@@ -340,6 +340,19 @@ header .intro-text {
 	.delivery-text p{
 		padding-left: 10px;
 	}
+	.online-text h2{
+		font-size: 30px;
+	}
+	.online-text p{
+		font-size: 20px;
+	}
+	.delivery-text h2{
+		font-size: 30px;
+	}
+	.delivery-text p{
+		font-size: 20px;
+	}
+
 }
 @media (max-width: 767px) {
 	.intro h2{
@@ -383,16 +396,14 @@ header .intro-text {
 		padding-right: 0;
 	}
 	.online-text h2{
-		font-family: 'Song Myung', serif;
+		
 		font-size: 30px;
 	}
 	.online-text p, .delivery-text p{
 		font-size: 20px;
 	}
 	.delivery-text h2{
-		font-family: 'Song Myung', serif;
 		font-size: 30px;
-		padding-left: 20px;
 	}
 	.photo-title h1{
 		font-size: 22px;
@@ -401,7 +412,7 @@ header .intro-text {
 		font-size: 16px;
 	}
 	.photo-title {
-		padding-top: 100px;
+		padding-top: 80px;
 	}
 	.intro h2 {
 		font-size: 23px;
