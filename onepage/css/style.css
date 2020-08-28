@@ -738,9 +738,11 @@ body{
     }
     .main4_left{
         height: 350px;
+        padding-top: 100px;
     }
     .main4_right{
         height: 350px;
+        padding-top: 100px;
     }
     .main4_left1{
         padding-top: 0;
@@ -749,8 +751,8 @@ body{
         font-size: 18px;
     }
     .main4_left p{
-        font-size: 14px;
-        line-height: 20px;
+        font-size: 18px;
+        line-height: 40px;
         padding-top: 10px;
         padding-left: 10px;
         padding-right: 10px;
@@ -762,11 +764,37 @@ body{
         font-size: 18px;
     }
     .main4_right p{
-        font-size: 14px;
-        line-height: 20px;
+        font-size: 18px;
+        line-height: 40px;
         padding-top: 10px;
         padding-left: 10px;
         padding-right: 10px;
+    }
+    .bottom4{
+        padding-top: 250px;
+    }
+}
+@media(max-width:768px){
+    .slide6_txt2{
+        line-height:1.6em;
+        top:25%;
+        padding: 0 20px;
+    }
+    .slide6_txt1{
+        top:15%;
+        right: 30%;
+    }
+    .slide1_txt1{
+        top:25%;
+        right:15%;
+    }
+    .slide1_txt2{
+        line-height: 1.6em;
+        top: 30%;
+        padding: 0 20px;
+    }
+    .menuNav li{
+        width: 120px;
     }
 }
 @media(max-width:767px){
@@ -1036,108 +1064,111 @@ body{
         height: 200px;
     }
     #myImg{
-        height: 200px;
+        height: 150px;
     }
     #myImg2{
-        height: 200px;
+        height: 150px;
     }
     #myImg3{
-        height: 200px;
+        height: 150px;
     }
     #myImg4{
-        height: 200px;
+        height: 150px;
         margin-top: 20px;
     }
     #myImg5{
-        height: 200px;
+        height: 150px;
         margin-top: 20px;
     }
     #myImg6{
-        height: 200px;
+        height: 150px;
         margin-top: 20px;
     }
     #myImg7{
-        height: 200px;
+        height: 150px;
         margin-top: 20px;
     }
     #myImg8{
-        height: 200px;
+        height: 150px;
         margin-top: 20px;
     }
     #myImg9{
-        height: 200px;
+        height: 150px;
         margin-top: 20px;
     }
     #photo1{
-        width: 150px;
+        width: 110px;
         margin-left: 5px;
-        height: 200px;
+        height: 150px;
+        padding-top: 50px;
     }
     #photo1 > img{
         margin-left: 0;
     }
     #photo2{
-        width: 150px;
+        width: 110px;
         margin-left: 10px;
-        height: 100px;
+        height: 150px;
+        padding-top: 50px
     }
     #photo2 > img{
         margin-left: 0;
     }
     #photo3{
-        width: 150px;
+        width: 110px;
         margin-left: 10px;
         margin-right: 5px;
-        height: 200px;
+        height: 150px;
+        padding-top: 50px
     }
     #photo3 > img{
         margin-left: 0;
     }
     #photo4{
-        width: 150px;
+        width: 110px;
         margin-left: 5px;
-        height: 200px;
+        height: 150px;
     }
     #photo4 > img{
         margin-left: 0;
     }
     #photo5{
-        width: 150px;
+        width: 110px;
         margin-left: 10px;
-        height: 200px;
+        height: 150px;
     }
     #photo5 > img{
         margin-left: 0;
     }
     #photo6{
-        width: 150px;
+        width: 110px;
         margin-left: 10px;
         margin-right: 5px;
-        height: 200px;
+        height: 150px;
     }
     #photo6 > img{
         margin-left: 0;
     }
     #photo7{
         margin-top: 20px;
-        width: 150px;
+        width: 110px;
         margin-left: 5px;
-        height: 200px;
+        height: 150px;
     }
     #photo7 > img{
         margin-left: 0;
     }
     #photo8{
         margin-top: 20px;
-        width: 150px;
+        width: 110px;
         margin-left: 10px;
-        height: 200px;
+        height: 150px;
     }
     #photo8 > img{
         margin-left: 0;
     }
     #photo9{
-        width: 150px;
+        width: 110px;
         margin-left: 10px;
         margin-right: 5px;
         height: 200px;
@@ -1253,6 +1284,29 @@ body{
         width: 50%;
         height: 50%;
     }
+    .slide6_txt1{
+        right: 40%;
+    }
+    .slide1_txt1{
+        right: 30%;
+    }
+    .photobox_close img{
+        width: 20px;
+        left: 30px;
+        height: 25px;
+    }
+    #img01, #img02, #img03, #img04, #img05, #img06, #img07, #img08, #img09{
+        padding-top: 150px;
+    }
+    .bottom4{
+        padding-top: 0;
+    }
+    .main4_left{
+        padding-top: 50px;
+    }
+    .main4_right{
+        padding-top: 50px;
+    }
 }
 @media(min-width:768px){
     .menuBtn{
@@ -1273,5 +1327,6 @@ body{
     #a01{
         margin-left:60px;
     }
+    
 }
     
